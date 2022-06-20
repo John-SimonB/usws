@@ -64,6 +64,9 @@ def parse(soup):
         
         splited = results.split(" ") 
         splited2 = results2.split(" ") 
+
+        name = str(item.find('h3', {'class': 'title line-clamp-2'}).text.strip())
+        new_name = name.replace(",", ".")
         
         if (len(splited) < 20):
             new_price = splited2[8].replace("€", "").replace("\xa0", "").replace("\n","")
@@ -72,7 +75,7 @@ def parse(soup):
             new_price = splited[9].replace("€", "").replace("\xa0", "").replace("\n","")
             old_price = splited[17].replace("€", "").replace("\xa0", "").replace("\n","")
         product = {
-            'productname': item.find('h3', {'class': 'title line-clamp-2'}).text.strip(),
+            'productname': new_name,
             'newprice': new_price,
             'oldprice': old_price,
             'link': "https://www.goflink.com/" + item.find('a', {'class': 'focus:after:outline-ring'})['href'],
