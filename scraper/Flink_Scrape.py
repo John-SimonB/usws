@@ -57,16 +57,20 @@ def parse(soup):
     for item in results:
         price_div = item.find('div', class_='price-tag --discounted')
         price_div2 = item.find('div', class_='price-tag')
-        
+        name_div = item.find('h3', {'class': 'title line-clamp-2'}).text.strip()
     
         results = str(price_div)
         results2 = str(price_div2)
+        result_name = str(name_div)
         
         splited = results.split(" ") 
         splited2 = results2.split(" ") 
-
+        splited_name = result_name.split(" ")
+        
         name = str(item.find('h3', {'class': 'title line-clamp-2'}).text.strip())
         new_name = name.replace(",", ".")
+        
+        size = splited_name[len(splited_name) -1].replace("(", "").replace(")", "")
         
         if (len(splited) < 20):
             new_price = splited2[8].replace("€", "").replace("\xa0", "").replace("\n","")
@@ -76,6 +80,7 @@ def parse(soup):
             old_price = splited[17].replace("€", "").replace("\xa0", "").replace("\n","")
         product = {
             'productname': new_name,
+            'size': size,
             'newprice': new_price,
             'oldprice': old_price,
             'link': "https://www.goflink.com/" + item.find('a', {'class': 'focus:after:outline-ring'})['href'],
@@ -85,7 +90,7 @@ def parse(soup):
 
 def output(productlist, file_name):
     productdf = pd.DataFrame(productlist)
-    productdf.to_csv(file_name + '.csv', index=False, sep=';')
+    productdf.to_csv(file_name + '.csv', index=False, sep=',')
     print("Saved to CSV (" + file_name +".csv)")
     return
 

@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 import numpy as np
-import time
 
 def open_file(name, datum):
     owd = os.getcwd()
@@ -10,7 +9,7 @@ def open_file(name, datum):
         if os.path.isfile(name + '.csv'):
             print("File found!")
             data = []
-            for chunk in pd.read_csv(name + ".csv", chunksize=10, error_bad_lines=False):
+            for chunk in pd.read_csv(name + ".csv", chunksize=100, error_bad_lines=False):
                 data.append(chunk)
                 os.chdir(owd)
             return data
@@ -22,15 +21,35 @@ def read_recipe():
     owd = os.getcwd()
     if os.path.exists("scraper/"):
         os.chdir("scraper/")
-        if os.path.isfile("Rezepte.xlsx"):
-            data = pd.read_excel("Rezepte.xlsx")
-            print(data)
+        if os.path.isfile("Rezepte-2.xlsx"):
+            data = pd.read_excel("Rezepte-2.xlsx")
             os.chdir(owd)
+            print(data)
             return data
         else: print("No file found")
     else: print("Path not found")
 
+#open_file("eis", "20.06")
 
-print(open_file("Bier", "20.06"))
-print(read_recipe())
+#read_recipe()
 
+def search_for_product(file, date, search):
+    print("You search for: " + search)
+    if os.path.exists("scraper/" + date):
+        os.chdir("scraper/" + date)
+        data = pd.read_csv(file +".csv")
+        print(type(data))
+        data.columns = ["productname", "size", "newprice", "oldprice", "link"]
+        prodcutsearch = data.loc[data['productname'].str.contains(search)]
+        if len(prodcutsearch) == 0:
+            print("No product found!")
+        else: print (prodcutsearch)
+
+
+search_for_product("bier", "20.06", "Corona")
+
+# rezepte mit suche verbinden 
+
+
+# 100g preis ausrechnen (scrape) nicht pflicht
+# namesplitting anschauen (wegen menge) nicht pflicht
