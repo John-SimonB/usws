@@ -7,6 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
+
 angebote = 'https://www.goflink.com/de-DE/shop/category/angebote/'
 neu = 'https://www.goflink.com/de-DE/shop/category/de-neu/'
 frischundfertig  = 'https://www.goflink.com/de-DE/shop/category/frisch-fertig/'
@@ -55,31 +56,32 @@ def parse(soup):
     productslist = []
     results = soup.find_all('div', {'class': 'product-card-grid-item'})
     for item in results:
-        price_div = item.find('div', class_='price-tag --discounted')
-        price_div2 = item.find('div', class_='price-tag')
-        name_div = item.find('h3', {'class': 'title line-clamp-2'}).text.strip()
-    
-        results = str(price_div)
-        results2 = str(price_div2)
-        result_name = str(name_div)
+        #why? 1 div tag enthält 2 span tags (in diesen steht der preis, einer davon normalpreis der andere angebotspreis)
+        result_pricediv = str(item.find('div', class_='price-tag --discounted'))
+        result_pricediv2 = str(item.find('div', class_='price-tag'))
         
-        splited = results.split(" ") 
-        splited2 = results2.split(" ") 
-        splited_name = result_name.split(" ")
+        splited_price1= result_pricediv.split(" ") 
+        splited_price2 = result_pricediv2.split(" ") 
         
-        name = str(item.find('h3', {'class': 'title line-clamp-2'}).text.strip())
-        new_name = name.replace(",", ".")
+        result_namediv = str(item.find('h3', {'class': 'title line-clamp-2'}).text.strip())    
+        splited_name = result_namediv.split(" ")
+        productname = str(item.find('h3', {'class': 'title line-clamp-2'}).text.strip())
+        replaced_name = productname.replace(",", ".")
         
+        #wahrscheinlich wird die mengenangabe ein problem machen (vielleicht nochmal replacen oder menge in extra spalte speichern?)
         size = splited_name[len(splited_name) -1].replace("(", "").replace(")", "")
         
-        if (len(splited) < 20):
-            new_price = splited2[8].replace("€", "").replace("\xa0", "").replace("\n","")
+        # logik = falls das produkt nicht im angebot ist, wird der alte preis auf 0 gesetzt und produkt erhält nur neuen preis
+        if (len(splited_price1) < 20):
+            new_price = splited_price2[8].replace("€", "").replace("\xa0", "").replace("\n","")
             old_price = 0
         else:
-            new_price = splited[9].replace("€", "").replace("\xa0", "").replace("\n","")
-            old_price = splited[17].replace("€", "").replace("\xa0", "").replace("\n","")
+            new_price = splited_price2[9].replace("€", "").replace("\xa0", "").replace("\n","")
+            old_price = splited_price2[17].replace("€", "").replace("\xa0", "").replace("\n","")
+
+        #finales speichern (tabellenlogik)
         product = {
-            'productname': new_name,
+            'productname': replaced_name,
             'size': size,
             'newprice': new_price,
             'oldprice': old_price,
@@ -94,6 +96,8 @@ def output(productlist, file_name):
     print("Saved to CSV (" + file_name +".csv)")
     return
 
+
+#wenn möglich bitte diese zeilen gegen einen loop ersetzen =)
 output(parse(get_page(angebote)), "angebote")
 output(parse(get_page(neu)), "neu")
 output(parse(get_page(frischundfertig)), "frischundfertig")
