@@ -1,30 +1,62 @@
 productname,size,newprice,oldprice,link
-Alpro Not Mlk Haferdrink 3.5% 1l,1l,"1,49","1,99",https://www.goflink.com//de-DE/shop/product/alpro-not-mlk-haferdrink-3-5-1l-11013647/
-Magnum Almond Remix 255ml (3x85ml),3x85ml,"2,79","3,69",https://www.goflink.com//de-DE/shop/product/magnum-almond-remix-255ml-3x85ml-11017414/
-Mitsuba Thai Chili Crispies 85g,85g,"1,55","1,99",https://www.goflink.com//de-DE/shop/product/mitsuba-thai-chili-crispies-85g-11014142/
-Alpro Not Mlk Haferdrink 1.8% 1l,1l,"1,49","1,99",https://www.goflink.com//de-DE/shop/product/alpro-not-mlk-haferdrink-1-8-1l-11013646/
-Arla Butter Kaergarden Gesalzen 250g,250g,"1,99","3,29",https://www.goflink.com//de-DE/shop/product/arla-butter-kaergarden-gesalzen-250g-11010166/
-Arla Butter Kaergarden Ungesalzen 250g,250g,"1,99","3,29",https://www.goflink.com//de-DE/shop/product/arla-kaergarden-ungesalzen-250g-11010167/
-Arla Kaergarden Bio 200g,200g,"1,99","3,29",https://www.goflink.com//de-DE/shop/product/arla-kargarden-bio-200g-11017625/
-Curry 36 Berliner Currywurst mit Darm 5x85g,5x85g,"4,99","5,59",https://www.goflink.com//de-DE/shop/product/curry-36-berliner-currywurst-mit-darm-5x85g-11016914/
-Curry 36 Berliner Currywurst ohne Darm 5x85g,5x85g,"4,99","5,59",https://www.goflink.com//de-DE/shop/product/curry-36-berliner-currywurst-ohne-darm-5x85g-11016911/
-Dauerbrenner Rostbratwurst im ESC 6x100g,6x100g,"5,99","7,29",https://www.goflink.com//de-DE/shop/product/dauerbrenner-rostbratwurst-im-esc-6x100g-11016913/
-Foodspring Protein Cookie Chocolate Chip 50g,50g,"1,99","2,49",https://www.goflink.com//de-DE/shop/product/protein-cookie-chocolate-chip-50g-11011246/
-Foodspring Protein Cookie White Chocolate Almond 50g,50g,"1,99","2,49",https://www.goflink.com//de-DE/shop/product/protein-cookie-white-chocolate-almond-50g-11011247/
-Garnier Wahre Schätze Honig Schätze Shampoo 250ml,250ml,"1,99","2,39",https://www.goflink.com//de-DE/shop/product/garnier-wahre-schatze-honig-schatze-shampoo-250ml-11017663/
-Garnier Wahre Schätze Honig Schätze Spülung 200ml,200ml,"1,99","2,39",https://www.goflink.com//de-DE/shop/product/garnier-wahre-schatze-honig-schatze-spulung-200ml-11017664/
-Leibniz Choco Black & White 125g,125g,"1,15","1,59",https://www.goflink.com//de-DE/shop/product/leibniz-choco-black-and-white-125g-11017849/
-Leibniz Choco Vollmilch 125g,125g,"1,15","1,59",https://www.goflink.com//de-DE/shop/product/bahlsen-leibniz-choco-vollmilch-125g-11011267/
-Leibniz Mini-Schoko-Keks 125g,125g,"1,15","1,59",https://www.goflink.com//de-DE/shop/product/bahlsen-leibniz-mini-schoko-keks-125g-11010894/
-Leibniz Minis Black'n White 125g,125g,"1,15","1,59",https://www.goflink.com//de-DE/shop/product/leibniz-minis-blackn-white-125g-11017140/
-Lillet Rosé Aperitif 17% vol. 0.75l,"0,75l","12,99","15,49",https://www.goflink.com//de-DE/shop/product/lillet-rose-aperitif-17-0-75l-11012028/
-Lillet Weiß Aperitif 17% vol. 0.75l,"0,75l","12,99","15,49",https://www.goflink.com//de-DE/shop/product/lillet-weiss-aperitif-17-0-75l-11012027/
+Alpro Caffe Mandel 235ml,235ml,"1,22","1,79",https://www.goflink.com//de-DE/shop/product/alpro-caffe-mandel-235ml-11014579/
+Alpro Caffe Soya Karamel 235 ml,ml,"1,22","1,79",https://www.goflink.com//de-DE/shop/product/alpro-caffee-soya-karamel-235-ml-11014232/
+Arla Bio Weidemilch 1.5% Fett. 1l,1l,"1,29","1,59",https://www.goflink.com//de-DE/shop/product/arla-bio-weidemilch-1-5-1l-11011534/
+Arla Bio Weidemilch 3.8% Fett. 1l,1l,"1,39","1,69",https://www.goflink.com//de-DE/shop/product/arla-bio-weidemilch-3-8-1l-11011533/
+Barilla Fusilli 500g,500g,"1,29","1,89",https://www.goflink.com//de-DE/shop/product/barilla-fusilli-500g-11010758/
+Barilla Maccheroni 500g,500g,"1,29","1,89",https://www.goflink.com//de-DE/shop/product/barilla-maccheroni-500g-11010759/
+Barilla Penne Rigate 500g,500g,"1,29","1,89",https://www.goflink.com//de-DE/shop/product/barilla-penne-rigate-500g-11010757/
+Barilla Spaghetti n.5 500g,500g,"1,29","1,89",https://www.goflink.com//de-DE/shop/product/barilla-spaghetti-n-5-500g-11010761/
+Danone Fruchtzwerge Erdbeere. Kirsche. Himbeere 6x50g,6x50g,"1,23","1,89",https://www.goflink.com//de-DE/shop/product/danone-fruchtzwerge-erdbeere-kirsche-himbeere-6x50g-11014779/
+Danone Fruchtzwerge Weniger Süß 6x50g,6x50g,"1,23","1,89",https://www.goflink.com//de-DE/shop/product/danone-fruchtzwerge-weniger-suss-6x50g-11011930/
+Desperados 0.33l,"0,33l","1,29","1,59",https://www.goflink.com//de-DE/shop/product/desperados-330ml-11013382/
+Doppio Passo Puglia Primitivo Bio 0.75l,"0,75l","6,49","9,49",https://www.goflink.com//de-DE/shop/product/doppio-passo-puglia-primitivo-0-75l-11011292/
+Gustavo Gusto Margherita 410g,410g,"3,59","4,29",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-pizza-margherita-410g-11011934/
+Gustavo Gusto Prosciutto e Ananas 510g,510g,"3,59","4,29",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-prosciutto-e-ananas-510g-11015038/
+Gustavo Gusto Prosciutto e Funghi 460g,460g,"3,59","4,29",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-prosciutto-e-funghi-460g-11015039/
+Gustavo Gusto Pura 315g,315g,"2,49","2,99",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-pura-315g-11017150/
+Gustavo Gusto Quattro Formaggi 430g,430g,"3,59","4,29",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-pizza-vier-kase-fur-ein-halleluja-430g-11015041/
+Gustavo Gusto Salame 460g,460g,"3,60","4,29",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-pizza-salami-460g-11011933/
+Gustavo Gusto Spinaci e Ricotta 480g,480g,"3,59","4,29",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-spinaci-e-ricotta-480g-11015037/
+Gustavo Gusto Tonno e Cipolla 475g,475g,"3,59","4,29",https://www.goflink.com//de-DE/shop/product/gustavo-gusto-tonno-e-cipolla-475g-11017401/
+Gutfried Hähnchensalami 80g,80g,"1,09","1,69",https://www.goflink.com//de-DE/shop/product/gutfried-hahnchensalami-80g-11013690/
+Gösser Naturradler 0.5l,"0,5l","0,79","0,99",https://www.goflink.com//de-DE/shop/product/gosser-naturradler-2-0-0-5l-11011649/
+Heineken Lager Original 6x0.33l,"6x0,33l","4,99","5,99",https://www.goflink.com//de-DE/shop/product/heineken-lager-original-6x0-33l-11016929/
+Himbeeren 125g (Deutschland),Deutschland,"1,39","1,99",https://www.goflink.com//de-DE/shop/product/himbeeren-125g-deutschland-11012948/
+Himbeeren 125g (Marokko),Marokko,"1,39","1,99",https://www.goflink.com//de-DE/shop/product/himbeeren-125g-kl-i-deutschland-11010747/
+Himbeeren 125g (Niederlande),Niederlande,"1,39","1,99",https://www.goflink.com//de-DE/shop/product/himbeeren-125g-niederlande-11013179/
+Himbeeren 125g (Portugal),Portugal,"1,39","1,99",https://www.goflink.com//de-DE/shop/product/himbeeren-125g-portugal-11012905/
+Himbeeren 125g (Spanien),Spanien,"1,39","1,99",https://www.goflink.com//de-DE/shop/product/himbeeren-125g-spanien-11012181/
+Houdek Kabanos Klassik 150g (2x75g),2x75g,"1,86","2,79",https://www.goflink.com//de-DE/shop/product/houdek-kabanos-klassik-150g-2x75g-11017869/
+Jack Daniel's Tennessee Whiskey & Cola 10% vol. 0.33l Dose,Dose,"1,99","2,99",https://www.goflink.com//de-DE/shop/product/jack-daniels-tennessee-whiskey-and-cola-10-0-33l-11012031/
+Kühne Made for Veggies Knoblauchsauce mediterran vegan 235ml,235ml,"1,32","1,79",https://www.goflink.com//de-DE/shop/product/kuhne-made-for-veggies-knoblauchsauce-mediterran-vegan-235ml-11017314/
+Kühne Made for Veggies Teriyaki Sesam 235ml,235ml,"1,32","1,79",https://www.goflink.com//de-DE/shop/product/kuhne-made-for-veggies-knoblauchsauce-teriyaki-sesam-235ml-11017312/
+Maryland Snack Nüsse geröstet & gesalzen 275g,275g,"2,39","2,99",https://www.goflink.com//de-DE/shop/product/maryland-snack-nusse-gerostet-and-gesalzen-275g-11017710/
+Maryland Studentenfutter 300g,300g,"2,39","2,99",https://www.goflink.com//de-DE/shop/product/maryland-studentenfutter-300g-11017518/
 Marziale Lasagna Bolognese 400g,400g,"4,22","4,69",https://www.goflink.com//de-DE/shop/product/marziale-lasagna-bolognese-400g-11017272/
-Marziale Trancetto Roll Tiramisù 180g,180g,"3,59","3,99",https://www.goflink.com//de-DE/shop/product/marziale-trancetto-roll-tiramisu-180g-11017271/
-Mitsuba Wasabi Peanut Crunch & Crispies 100g,100g,"1,55","1,99",https://www.goflink.com//de-DE/shop/product/mitsuba-wasabi-peanut-crunch-100g-11014143/
-Mitsuba Wasabi Peanut Crunch 125g,125g,"1,55","1,99",https://www.goflink.com//de-DE/shop/product/mitsuba-wasabi-peanut-crunch-125g-11014762/
-Paulaner Original Münchner hell 0.5l,"0,5l","0,89","1,09",https://www.goflink.com//de-DE/shop/product/paulaner-original-munchner-hell-0-5l-11014047/
-Volvic Naturell 1.5l,"1,5l","0,79","1,29",https://www.goflink.com//de-DE/shop/product/volvic-naturell1-5l-11010364/
+Marziale Vegetarische Lasagne mit Tomatensoße und Mozzarella 400g,400g,"4,22","4,69",https://www.goflink.com//de-DE/shop/product/marziale-lasagna-sorrentina-400g-11017273/
+Milram Müritzer Scheiben 150g,150g,"1,59","1,99",https://www.goflink.com//de-DE/shop/product/milram-muritzer-scheiben-150g-11014131/
+Oatly Hafer Eis Chocolate Fudge 500ml,500ml,"4,49","5,99",https://www.goflink.com//de-DE/shop/product/oatly-hafer-eis-chocolate-fudge-500ml-11017108/
+Oatly Hafer Eis Hazelnut Swirl 500ml,500ml,"4,49","5,99",https://www.goflink.com//de-DE/shop/product/oatly-hafer-eis-hazelnut-swirl-500ml-11017107/
+Oatly Hafer Eis Salted Caramel 500ml,500ml,"4,49","5,99",https://www.goflink.com//de-DE/shop/product/oatly-hafer-eis-salted-caramel-500ml-11017106/
+Plattpfirsiche 500g (Italien),Italien,"1,99","2,29",https://www.goflink.com//de-DE/shop/product/plattpfirsiche-500g-italien-11013305/
+Plattpfirsiche 500g (Spanien),Spanien,"1,99","2,29",https://www.goflink.com//de-DE/shop/product/plattpfirsiche-500g-spanien-11012955/
+Ratsherrn Alster Hell 0.33l,"0,33l","1,29",0,https://www.goflink.com//de-DE/shop/product/ratsherrn-alster-hell-0-33l-11016778/
+Ratsherrn Hamburger Hell 0.33l,"0,33l","1,29",0,https://www.goflink.com//de-DE/shop/product/ratsherrn-hamburger-hell-5-1-0-33l-11011807/
+Ratsherrn Pilsener 0.33l,"0,33l","0,99",0,https://www.goflink.com//de-DE/shop/product/ratsherrn-pilsener-4-9-0-33l-11011806/
+Starnberger Hell 0.5l,"0,5l","0,89","1,09",https://www.goflink.com//de-DE/shop/product/starnberger-hell-0-5l-11016268/
+Süßkartoffel 1 Stk. (Argentinien),Argentinien,"1,12","1,49",https://www.goflink.com//de-DE/shop/product/susskartoffeln-1-stk-honduras-11013427/
+Süßkartoffel 1 Stk. (Deutschland),Deutschland,"1,12","1,49",https://www.goflink.com//de-DE/shop/product/susskartoffeln-1-stk-deutschland-11013213/
+Süßkartoffel 1 Stk. (Guatemala),Guatemala,"1,12","1,49",https://www.goflink.com//de-DE/shop/product/susskartoffeln-1-stk-guatemala-11013428/
+Süßkartoffel 1 Stk. (Peru),Peru,"1,49",0,https://www.goflink.com//de-DE/shop/product/susskartoffeln-1-stk-peru-11013673/
+Süßkartoffel 1 Stk. (Spanien),Spanien,"1,12","1,49",https://www.goflink.com//de-DE/shop/product/susskartoffeln-spanien-1-stk-11011401/
+Süßkartoffel 1 Stk. (USA),USA,"1,12","1,49",https://www.goflink.com//de-DE/shop/product/susskartoffeln-1-stk-usa-11012192/
+Süßkartoffel 1 Stk. (Uruguay),Uruguay,"1,12","1,49",https://www.goflink.com//de-DE/shop/product/susskartoffeln-1-stk-uruguay-11013199/
+Süßkartoffel 1 Stk. (Ägypten),Ägypten,"1,12","1,49",https://www.goflink.com//de-DE/shop/product/susskartoffeln-1-stk-agypten-11013214/
+True Fruits Smoothie Pink 250ml,250ml,"1,92","2,49",https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-pink-250ml-11014251/
+True Fruits Smoothie Purple 250ml,250ml,"1,92","2,49",https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-purple-250ml-11014252/
+True Fruits Smoothie Yellow 250ml,250ml,"1,92","2,49",https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-yellow-250ml-11014250/
+Vieta Pro #Relax True Wireless Kopfhörer schwarz,schwarz,"20,67","30,99",https://www.goflink.com//de-DE/shop/product/vieta-pro-relax-true-wireless-kopfhorer-schwarz-11016326/
 3Bears Porridge Exotische Früchte 400g,400g,"1,50","4,99",https://www.goflink.com//de-DE/shop/product/3bears-porridge-exotische-fruchte-400g-11011588/
 5 GUM Wassermelone 35 Dragees,Dragees,"0,78","2,59",https://www.goflink.com//de-DE/shop/product/5-gum-wassermelone-35-dragees-11015264/
 5 Gum Spearmint 8 Stk.,Stk.,"0,30","0,99",https://www.goflink.com//de-DE/shop/product/5-gum-spearmint-8-stk-11012005/
@@ -131,7 +163,9 @@ El Meson Rioja Crianza DOCa. 0.75l,"0,75l","6,29","8,99",https://www.goflink.com
 Erasco Heisse Tasse Hühnersuppe 450ml,450ml,"0,30","0,99",https://www.goflink.com//de-DE/shop/product/erasco-heisse-tasse-huhnersuppe-450ml-11010232/
 Erasco Heisse Tasse Tomatencremesuppe 450ml,450ml,"0,30","0,99",https://www.goflink.com//de-DE/shop/product/erasco-heisse-tasse-tomatencremesuppe-450ml-11010250/
 Erasco Weiße Bohneneintopf 800g,800g,"2,39","2,99",https://www.goflink.com//de-DE/shop/product/erasco-weisse-bohneneintopf-800g-11010257/
-Every Pumpkin Pasta 450g,450g,"5,99","7,99",https://www.goflink.com//de-DE/shop/product/every-pumpkin-pasta-450g-11015068/
+Every Dal Delight 450g,450g,"6,39","7,99",https://www.goflink.com//de-DE/shop/product/every-dal-delight-450g-11012038/
+Every Golden Curry 450g,450g,"6,39","7,99",https://www.goflink.com//de-DE/shop/product/every-golden-curry-450g-11015067/
+Every Pumpkin Pasta 450g,450g,"6,39","7,99",https://www.goflink.com//de-DE/shop/product/every-pumpkin-pasta-450g-11015068/
 Exquisa Fruchtquark Heidelbeere 0.2% 500g,500g,"0,57","1,89",https://www.goflink.com//de-DE/shop/product/exquisa-fruchtquark-heidelbeere-0-2-500g-11016112/
 Exquisa Quarkgenuss Stracciatella 0.2% 500g,500g,"0,57","1,89",https://www.goflink.com//de-DE/shop/product/exquisa-fruchtquark-stracciatella-0-2-500g-11016116/
 Exquisa Quarkgenuss Vanille 0.2% 500g,500g,"0,57","1,89",https://www.goflink.com//de-DE/shop/product/exquisa-fruchtquark-vanille-0-2-500g-11016115/
@@ -265,7 +299,7 @@ Lindt Creation Tarte au Citron 150g,150g,"0,90","2,99",https://www.goflink.com//
 Lindt Eier Beutel Mischung. 180g,180g,"1,65","5,49",https://www.goflink.com//de-DE/shop/product/lindt-eier-beutel-mischung-180g-11016191/
 Lindt Excellence Orange Feinherb 100g,100g,"0,69","2,29",https://www.goflink.com//de-DE/shop/product/lindt-excellence-orange-feinherb-100g-11011907/
 Lindt Excellence mit Meersalz Feinherb 100g,100g,"0,69","2,29",https://www.goflink.com//de-DE/shop/product/lindt-excellence-feinherb-mit-meersalz-100g-11011904/
-Lindt Fioretto Minis Cappuccino 115g,115g,"1,05","3,49",https://www.goflink.com//de-DE/shop/product/lindt-fioretto-minis-cappuccino-115g-11015867/
+Lindt Fioretto Minis Cappuccino 115g,115g,"0,99","3,29",https://www.goflink.com//de-DE/shop/product/lindt-fioretto-minis-cappuccino-115g-11015867/
 Lindt Goldhase 1kg,1kg,"19,99","39,99",https://www.goflink.com//de-DE/shop/product/lindt-goldhase-1kg-11016190/
 Lindt Goldhase Vollmilch 100g,100g,"0,96","3,19",https://www.goflink.com//de-DE/shop/product/lindt-goldhase-vollmilch-100g-11011921/
 Lindt Goldhase Weiß & Erdbeere 100g,100g,"1,11","3,69",https://www.goflink.com//de-DE/shop/product/lindt-goldhase-weiss-and-erdbeere-100g-11016189/
@@ -306,7 +340,7 @@ Manner Neapolitaner Schnitten 400g,400g,"0,90","2,99",https://www.goflink.com//d
 Martini Fiero 14.4% vol. 0.75l,"0,75l","2,52","8,39",https://www.goflink.com//de-DE/shop/product/martini-fiero-14-4-750ml-11013251/
 Marziale Girasoli Al Limone 250g,250g,"1,11","3,69",https://www.goflink.com//de-DE/shop/product/marziale-girasoli-al-limone-250g-11014919/
 Marziale Pappardelle 250g,250g,"0,78","2,59",https://www.goflink.com//de-DE/shop/product/marziale-pappardelle-250g-11015219/
-Matithor Spanische Oliven mit Paprikapaste 200g,200g,"0,87","1,09",https://www.goflink.com//de-DE/shop/product/matithor-spanische-oliven-mit-paprikapaste-200g-11013079/
+Matithor Spanische Oliven mit Paprikapaste 200g,200g,"0,95","1,19",https://www.goflink.com//de-DE/shop/product/matithor-spanische-oliven-mit-paprikapaste-200g-11013079/
 Meggle Feine Butter 250g,250g,"1,05","3,49",https://www.goflink.com//de-DE/shop/product/meggle-feine-butter-250g-11013656/
 Meßmer Feinster Darjeeling lose 150g,150g,"1,65","5,49",https://www.goflink.com//de-DE/shop/product/messmer-feinster-darjeeling-lose-150g-11014158/
 Meßmer Feinster Earl Grey lose 150g,150g,"1,38","4,59",https://www.goflink.com//de-DE/shop/product/messmer-feinster-earl-grey-lose-150g-11014159/
@@ -375,7 +409,7 @@ Ritter Sport Vollmilch Goldschatz 250g,250g,"0,84","2,79",https://www.goflink.co
 Rockstar Energy + Hemp Original 0.5l,"0,5l","0,54","1,79",https://www.goflink.com//de-DE/shop/product/rockstar-energy-hemp-original-0-5l-11013809/
 Rockstar Punched Guava 0.5l,"0,5l","0,54","1,79",https://www.goflink.com//de-DE/shop/product/rockstar-punched-guava-500ml-11012345/
 Rockstar XDurance 0.5l,"0,5l","1,25","1,79",https://www.goflink.com//de-DE/shop/product/rockstar-xdurance-500ml-11012347/
-Rotkäppchen Alkoholfrei 0.75l,"0,75l","1,80","4,49",https://www.goflink.com//de-DE/shop/product/rotkappchen-alkoholfrei-0-75l-11010039/
+Rotkäppchen Alkoholfrei 0.75l,"0,75l","3,82","4,49",https://www.goflink.com//de-DE/shop/product/rotkappchen-alkoholfrei-0-75l-11010039/
 Russian Standard 40% vol. 0.7l,"0,7l","4,20","13,99",https://www.goflink.com//de-DE/shop/product/russian-standard-40-0-7l-11010034/
 Rügenwalder Vegetarischer Schinkenspicker Salat 150g,150g,"0,60","1,99",https://www.goflink.com//de-DE/shop/product/rugenwalder-vegetarischer-schinkenspicker-salat-150g-11013604/
 San Valentin Blanco Torres 0.75l,"0,75l","3,74","7,49",https://www.goflink.com//de-DE/shop/product/san-valentin-blanco-torres-0-75l-11016014/
