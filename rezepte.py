@@ -3,31 +3,31 @@ import numpy as np
 
 def preisRechnung():
     # Es ist sinnvoll eine Liste mit Dictionaries zu erstellen, da die vorherige Form doppelte keywords (z.B. 2 mal "name") beinhaltete. Deshalb die [] Klammern :)
-    rezepte =[{"name": "Nudeln", "beschreibung" : {
+    rezepte =[{"name": "noodle", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...",
                 "nährwerte" : "100 kcal, 10 g fett.....",
                 "menge" : ["100g", "10000000g"],
-                "zutaten" : ["Arla Butter Kaergarden Gesalzen 250g", "Arla Butter Kaergarden Gesalzen 250g"],
+                "zutaten" : ["Eat Happy Sushi Maki Avocado 102g", "Barilla Maccheroni 500g"],
                 "bild" : "https://images.pexels.com/photos/2092906/pexels-photo-2092906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
 
                 {"name": "Kuchen", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...",
                 "nährwerte" : "100 kcal, 10 g fett.....",
                 "menge" : ["200g"],
-                "zutaten" : ["Wiltmann Geflügelsalami 80g"],
+                "zutaten" : ["Eat Happy Sushi Maki Avocado 102g"],
                 "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
                 
                 {"name": "Bla", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...",
                 "nährwerte" : "100 kcal, 10 g fett.....",
                 "menge" : ["200g"],
-                "zutaten" : ["Wiltmann Geflügelsalami 80g"],
+                "zutaten" : ["Eat Happy Sushi Maki Avocado 102g"],
                 "bild" : "https://images.pexels.com/photos/8862752/pexels-photo-8862752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
                 {"name": "123123123", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...",
                 "nährwerte" : "100 kcal, 10 g fett.....",
                 "menge" : ["200g"],
-                "zutaten" : ["Wiltmann Geflügelsalami 80g"],
+                "zutaten" : ["Eat Happy Sushi Maki Avocado 102g"],
                 "bild" : "https://images.pexels.com/photos/8862752/pexels-photo-8862752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}}
             ]
 

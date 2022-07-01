@@ -157,3 +157,5 @@ print("\n\n\n\n\nData succsessfully scraped!")
 if os.path.isfile('allproducts.csv'):
     os.remove("allproducts.csv")
     os.system('python3 merge.py')
+
+print("finshed!")

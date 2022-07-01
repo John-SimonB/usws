@@ -4,7 +4,6 @@ from sortedcontainers import SortedValuesView
 import rezepte as rp
 import numpy as np
 import os
-import time
 import datetime as dt
 from pathlib import Path
 
@@ -36,6 +35,8 @@ def searchPage():
         allproducts = dt.datetime.fromtimestamp(f2.stat().st_mtime).date()
         if (today == sales):
             print("Datei ist aktuell")
+            print("Heutiges Datum: " + str(today))
+            print("Datei Datum: " + str(sales))
             pass
         else:
             print("Datei nicht aktuell")
@@ -43,7 +44,7 @@ def searchPage():
             print("Datei Datum: " + str(sales))
             if os.path.isfile('angebote.csv'):
                 os.remove("angebote.csv")
-                os.system('python3 Flink_Scrape.py')
+                os.system('python3 angebotedatascrape.py')
 
         #time.sleep(5)
         # ScrapeThread = threading.Thread(target = os.system('python Flink_Scrape.py'))
@@ -57,27 +58,27 @@ def searchPage():
         zutatenArray = []
         mengeArray = []
         preisArray = []
-        linkArray = []
+        bildArray = []
         # rezepte herausfiltern, welche dem Namen entsprechen
         for rezept in rezepte:
             if word in rezept["name"]:
                 nameArray.append(rezept["name"])
                 zubereitungArray.append(rezept["beschreibung"]["zubereitung"])
                 naehrwerteArray.append(rezept["beschreibung"]["nährwerte"])
-                linkArray.append(rezept["beschreibung"]["bild"])
+                bildArray.append(rezept["beschreibung"]["bild"])
                 zutatenArray.append(rezept["beschreibung"]["zutaten"])
                 mengeArray.append(rezept["beschreibung"]["menge"])
                 preisArray.append(rezept["preis"])
         # rezepte nach Preis sortieren
         nameArray = [x for _, x in sorted(zip(preisArray, nameArray))]
-        linkArray = [x for _, x in sorted(zip(preisArray, linkArray))]
+        bildArray = [x for _, x in sorted(zip(preisArray, bildArray))]
         zubereitungArray = [x for _, x in sorted(zip(preisArray, zubereitungArray))]
         naehrwerteArray = [x for _, x in sorted(zip(preisArray, naehrwerteArray))]
         zutatenArray = [x for _, x in sorted(zip(preisArray, zutatenArray))]
         mengeArray = [x for _, x in sorted(zip(preisArray, mengeArray))]
         preisArray = np.sort(np.array(preisArray).astype(float))
         
-        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, linkArray=linkArray, sales=sales,allproducts=allproducts, writeBool=True)
+        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, bildArray=bildArray, sales=sales,allproducts=allproducts, writeBool=True)
     else:
         f = Path('angebote.csv')
         f2 = Path('allproducts.csv')
@@ -89,8 +90,8 @@ def searchPage():
         zutatenArray = []
         mengeArray = []
         preisArray = []
-        linkArray = []
-        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, linkArray=linkArray, sales=sales,allproducts=allproducts, writeBool = False)
+        bildArray = []
+        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, bildArray=bildArray, sales=sales,allproducts=allproducts, writeBool = False)
 
 
 @app.route("/Datenvisualisation")

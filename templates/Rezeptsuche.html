@@ -17,12 +17,13 @@
     <p>If you are not looking for a specific recipe, you can also click directly on search and the cheapest recipe will be displayed first.</p>
 </form>
 
+
 {% if writeBool and nameArray|length > 0%}
     {% for i in range(nameArray|length)%}
         <div class="card my-5 p-3" style="background-color:#efefef; border-top-left-radius: 25px; border-bottom-right-radius: 25px;">
             <div class="topic">
                 <p style="color:#404040;font-size:50px;background-color:#283655;color:#d0e1f9; border-radius: 25px; text-align: center;">{{nameArray[i]}}</p>
-                <img src={{linkArray[i]}} title=”Nudeln” alt="2" style="height:150px;position: absolute; margin-left: 82.5%; top: 0px;margin-bottom: 0"/>
+                <img src={{bildArray[i]}} title=”Nudeln” alt="2" style="height:150px;position: absolute; margin-left: 82.5%; top: 0px;margin-bottom: 0"/>
             </div>
             <li style="color:#404040;font-size:25px;">preparation: {{zubereitungArray[i]}}</li>
             <li style="color:#404040;font-size:25px;">nutritional values: {{naehrwerteArray[i]}}</li>
