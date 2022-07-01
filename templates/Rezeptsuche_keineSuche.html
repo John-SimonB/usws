@@ -1,0 +1,12 @@
+{% extends "base.html" %} 
+{% block title %}Rezeptsuche{% endblock %}
+{% block content %}
+
+<form action="#" method="post">
+    <p>Rezept suchen:</p>
+    <p><input type="text", name="nm" /></p>
+    <p><input type="submit", value="suchen", color="#7492B9" /></p>
+        <p>database was last updated on: {{filesdate}}</p>
+</form>
+
+{% endblock content %}
