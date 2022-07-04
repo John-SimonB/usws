@@ -1,57 +1,59 @@
 {% extends "base.html" %} 
 {% block title %}Rezeptsuche{% endblock %}
 {% block content %}
-<!--
-<div class="input-group">
-    <input type="search" class="form-control rounded" placeholder="suchen" aria-label="suchen" aria-describedby="search-addon" />
-    <button type="button" class="btn btn-outline-primary", action="#">suchen</button>
-</div>
--->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js"></script>
-
 <form action="#" method="post" style="text-align: center;">
     <p style="color:#404040;font-size:60px;">Recipe search</p>
-    <input type="text", name="nm", style="color:#283655;font-size:30px; border-radius: 15px; border-color: 283655; border:2px solid #283655" /> <input type="submit", value="search", color="#7492B9" style="background-color:#283655;color:#d0e1f9;font-size:20px; padding-left: 20px; padding-right: 20px; margin-left: 25px; border-radius: 15px; top: -5px; position: relative;" />
+    <input type="text", name="nm", style="color:#283655;font-size:30px; box-shadow: 0px 10px 15px rgba(0,0,0,0.2);; border-radius: 15px; border-color: 283655; border:2px solid #283655" /> <input type="submit", value="search", color="#7492B9" style="background-color:#283655;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);color:#d0e1f9;font-size:20px; padding-left: 20px; padding-right: 20px; margin-left: 25px; border-radius: 15px; top: -5px; position: relative;" />
     <p></p>
     <p>Enter any recipe here.</p>
     <p>If you are not looking for a specific recipe, you can also click directly on search and the cheapest recipe will be displayed first.</p>
 </form>
-
-
+    
+<div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 25px; justify-content: center; background-image: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); margin-top: 20px;">
 {% if writeBool and nameArray|length > 0%}
     {% for i in range(nameArray|length)%}
-        <div class="card my-5 p-3" style="background-color:#efefef; border-top-left-radius: 25px; border-bottom-right-radius: 25px;">
-            <div class="topic">
-                <p style="color:#404040;font-size:50px;background-color:#283655;color:#d0e1f9; border-radius: 25px; text-align: center;">{{nameArray[i]}}</p>
-                <img src={{bildArray[i]}} title=”Nudeln” alt="2" style="height:150px;position: absolute; margin-left: 82.5%; top: 0px;margin-bottom: 0"/>
+
+        <div class="card" style="width: 35rem; margin-bottom: 20px; border-radius: 25px ;margin-top: 20px; box-shadow: 0px 3px 15px rgba(0,0,0,0.2);">
+            <img src={{bildArray[i]}} class="card-img-top" alt="picture" height="400px">
+            <a href={{bildArray[i]}} target="_blank" style="font-size: 12px; position: absolute; top: 380px; background-color: white;">picture</a>
+            <div class="card-body">
+            <h5 class="card-title" style="font-size: 25px;">{{nameArray[i]}}</h5>
+            <img src={{picArray[i]}} alt="picture" style="height: 75px; width: 75px; position: absolute; top: -15px; right: 20px; border-radius: 10px;">
+            <p class="card-text" style="font-size: 15px;">{{zubereitungArray[i]}}</p>
+            <p style="font-size: 15px;">{{naehrwerteArray[i]}}</p>
             </div>
-            <li style="color:#404040;font-size:25px;">preparation: {{zubereitungArray[i]}}</li>
-            <li style="color:#404040;font-size:25px;">nutritional values: {{naehrwerteArray[i]}}</li>
-            <p style="color:#404040;font-size:25px;">ingredients:</p>
-            <table class="table">
-                <thead class="thead">
-                    <tr>
-                        <th scope="col">product</th>
-                        <th scope="col">quantity</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for j in range(zutatenArray|length) %}
-                    <tr>
-                        <td>{{zutatenArray[i][j]}}</td>
-                        <td>{{mengeArray[i][j]}}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>  
-            <p style="color:#404040;font-size:25px;">total price: {{preisArray[i]}}€</p>           
+            <ul class="list-group list-group-flush">
+                <table class="table">
+                    <thead class="thead">
+                        <tr>
+                            <th scope="col">product</th>
+                            <th scope="col">quantity</th>
+                            <th scope="col">link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for j in range(zutatenArray|length) %}
+                        <tr>
+                            <td style="font-size: 15px;">{{zutatenArray[i][j]}}</td>
+                            <td style="font-size: 15px;">{{mengeArray[i][j]}}</td>
+                            <td><a href={{linkArray[i][j]}} target="_blank" style="font-size: 12px;">{{linkArray[i][j]}}</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>  
+                <div class="card-body" style="padding-bottom: 0px;">
+                    <p style="color:#404040;font-size:20px;">total price: {{preisArray[i]}}€</p> 
+                </div>
+            </ul>
         </div>
     {% endfor %}
-    <p>database was last updated on: </p>
-    <li>{{sales}} (sales)</li>
-    <li>{{allproducts}} (allproducts)</li>
 {% elif writeBool and length == 0%}
     <p>Das Rezept konnte leider nicht gefunden werden...</p>
 {% endif %}
-
+</div>
+<div class="info" style="width: 100%; text-align: center;">
+    <p>database was last updated on: </p>
+    <li>{{sales}} (sales)</li>
+    <li>{{allproducts}} (allproducts)</li>
+</div>
 {% endblock content %}
