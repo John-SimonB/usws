@@ -59,6 +59,8 @@ def searchPage():
         mengeArray = []
         preisArray = []
         bildArray = []
+        linkArray = []
+        picArray = []
         # rezepte herausfiltern, welche dem Namen entsprechen
         for rezept in rezepte:
             if word in rezept["name"]:
@@ -68,7 +70,10 @@ def searchPage():
                 bildArray.append(rezept["beschreibung"]["bild"])
                 zutatenArray.append(rezept["beschreibung"]["zutaten"])
                 mengeArray.append(rezept["beschreibung"]["menge"])
+                linkArray.append(rezept["beschreibung"]["link"])
+                picArray.append(rezept["pic"])
                 preisArray.append(rezept["preis"])
+                
         # rezepte nach Preis sortieren
         nameArray = [x for _, x in sorted(zip(preisArray, nameArray))]
         bildArray = [x for _, x in sorted(zip(preisArray, bildArray))]
@@ -76,9 +81,11 @@ def searchPage():
         naehrwerteArray = [x for _, x in sorted(zip(preisArray, naehrwerteArray))]
         zutatenArray = [x for _, x in sorted(zip(preisArray, zutatenArray))]
         mengeArray = [x for _, x in sorted(zip(preisArray, mengeArray))]
+        linkArray = [x for _, x in sorted(zip(preisArray, linkArray))]
+        picArray = [x for _, x in sorted(zip(preisArray, picArray))]
         preisArray = np.sort(np.array(preisArray).astype(float))
         
-        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, bildArray=bildArray, sales=sales,allproducts=allproducts, writeBool=True)
+        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, bildArray=bildArray, sales=sales,allproducts=allproducts, linkArray=linkArray,picArray=picArray,  writeBool=True)
     else:
         f = Path('angebote.csv')
         f2 = Path('allproducts.csv')
@@ -91,7 +98,9 @@ def searchPage():
         mengeArray = []
         preisArray = []
         bildArray = []
-        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, bildArray=bildArray, sales=sales,allproducts=allproducts, writeBool = False)
+        linkArray = []
+        picArray = []
+        return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, bildArray=bildArray, sales=sales,allproducts=allproducts,linkArray=linkArray,picArray=picArray, writeBool = False)
 
 
 @app.route("/Datenvisualisation")
@@ -102,3 +111,5 @@ def dataPage():
 
 if __name__ == '__main__':
     app.run(debug=True) 
+
+
