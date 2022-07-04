@@ -1,6 +1,7 @@
 {% extends "base.html" %} 
 {% block title %}Rezeptsuche{% endblock %}
 {% block content %}
+<body>
 <form action="#" method="post" style="text-align: center;">
     <p style="color:#404040;font-size:60px;">Recipe search</p>
     <input type="text", name="nm", style="color:#283655;font-size:30px; box-shadow: 0px 10px 15px rgba(0,0,0,0.2);; border-radius: 15px; border-color: 283655; border:2px solid #283655" /> <input type="submit", value="search", color="#7492B9" style="background-color:#283655;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);color:#d0e1f9;font-size:20px; padding-left: 20px; padding-right: 20px; margin-left: 25px; border-radius: 15px; top: -5px; position: relative;" />
@@ -9,12 +10,12 @@
     <p>If you are not looking for a specific recipe, you can also click directly on search and the cheapest recipe will be displayed first.</p>
 </form>
     
-<div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 25px; justify-content: center; background-image: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); margin-top: 20px;">
+<div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 25px; justify-content: center; background-image: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); border-radius: 25px;margin-top: 20px;">
 {% if writeBool and nameArray|length > 0%}
     {% for i in range(nameArray|length)%}
 
         <div class="card" style="width: 35rem; margin-bottom: 20px; border-radius: 25px ;margin-top: 20px; box-shadow: 0px 3px 15px rgba(0,0,0,0.2);">
-            <img src={{bildArray[i]}} class="card-img-top" alt="picture" height="400px">
+            <img src={{bildArray[i]}} class="card-img-top" alt="picture" height="400px" style="border-top-left-radius: 25px; border-top-right-radius: 25px;">
             <a href={{bildArray[i]}} target="_blank" style="font-size: 12px; position: absolute; top: 380px; background-color: white;">picture</a>
             <div class="card-body">
             <h5 class="card-title" style="font-size: 25px;">{{nameArray[i]}}</h5>
@@ -47,8 +48,9 @@
             </ul>
         </div>
     {% endfor %}
+    <a href="https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" style="font-size: 12px;">background-image</a>
 {% elif writeBool and length == 0%}
-    <p>Das Rezept konnte leider nicht gefunden werden...</p>
+    <p>do not found</p>
 {% endif %}
 </div>
 <div class="info" style="width: 100%; text-align: center;">

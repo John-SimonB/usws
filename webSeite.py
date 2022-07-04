@@ -17,7 +17,7 @@ app = createApp('REZEPTE')
 
 
 # verschiedene Seiten
-@app.route("/Projektbeschreibung")
+@app.route("/")
 def projectPage():
     return render_template("Projektbeschreibung.html")
 
