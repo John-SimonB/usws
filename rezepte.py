@@ -7,20 +7,20 @@ def preisRechnung():
     rezepte =[{"name": "Nudeln mit Tomatensoßen und sadfsdfasd347625385234r43453452345ssssssssss", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...asdfsdfsadfasdfsdzgutfw37rugtzwr86543grtuz2238465rftuz3gur235f7u6zitwifgwdg sdfgweg324rtwref",
                 "nährwerte" : "100 kcal, 10 g fett.....  ra4s576fudtzgfa5sdr6tg7sa6tdfr7tuasgdif56srdtgfzgtas5rdtzasd5fr6sdtzgf5asrdutziufasdf342trwefsdfdfas",
-                "menge" : ["100g", "240g"],
-                "zutaten" : ["Barilla Fusilli 500g", "Bella & Bona Bagel Salmon 240g"],
+                "menge" : ["2ml", "240g"],
+                "zutaten" : ["Thomy Reines Sonnenblumenöl 750ml", "Bella & Bona Bagel Salmon 240g"],
                 "link" : [],
                 "ernaehrungsform" : "vegan",
                 "bild" : "https://images.pexels.com/photos/2092906/pexels-photo-2092906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
 
-                {"name": "gemuese", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["500g"],
-                "zutaten" : ["Barilla Fusilli 500g"],
+                {"name": "Pasta alla Norma", "beschreibung" : {
+                "zubereitung" : "Heat some olive oil in a pot and sweat the garlic in it. Then add the peeled tomatoes. Simmer over low heat for 10-15 minutes. Heat a pot with plenty of salted water and cook the pasta al dente according to package instructions. Cut the eggplants into slices. Heat a pan with plenty of sunflower oil. Fry the eggplant slices on both sides. Put them on a baking tray covered with kitchen roll and let them drain. Season with salt and pepper. Grate the ricotta salata with a kitchen grater. Add the finished pasta to the pot with the tomato sauce. Add the fried eggplant and a few basil leaves and stir everything well. Divide the pasta among deep plates and sprinkle the ricotta salata on top. Buon appetito!",
+                "nährwerte" : "Calories: 102kcal, Carbohydrates: 13.4g, Protein: 2.7g, Fat: 1.8g",
+                "menge" : ["500g", "3g", "200g", "5ml", "5g", "1g", "1g"],
+                "zutaten" : ["Barilla Penne Rigate 500g", "Iglo Knoblauch-Duo 60g", "Marziale Tortelloni Ricotta Spinaci 250g", "Thomy Reines Sonnenblumenöl 750ml", "Iglo Basilikum 50g", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
                 "link" : [],
-                "ernaehrungsform" : "vegetarisch",
-                "bild" : "https://www.daskochrezept.de/sites/daskochrezept.de/files/styles/full_width_tablet_4_3/public/2021-10/2021_gemuesepfanne_aufmacher.jpg?h=4521fff0&itok=aaxr8z3z"}},
+                "ernaehrungsform" : "asdfasdfasdfsdf",
+                "bild" : "https://images.pexels.com/photos/432072/pexels-photo-432072.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%22%7D%7D"}},
                 
                 {"name": "bla", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...",
