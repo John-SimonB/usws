@@ -4,28 +4,28 @@
 <body>
 <form action="#" method="post" style="text-align: center;">
     <p style="color:#404040;font-size:60px;">Recipe search</p>
-    <input type="text", name="nm", style="color:#283655;font-size:30px; box-shadow: 0px 10px 15px rgba(0,0,0,0.2);; border-radius: 15px; border-color: 283655; border:2px solid #283655" /> <input type="submit", value="search", color="#7492B9" style="background-color:#283655;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);color:#d0e1f9;font-size:20px; padding-left: 20px; padding-right: 20px; margin-left: 25px; border-radius: 15px; top: -5px; position: relative;" />
+    <input type="text", name="nm", style="color:#283655;font-size:30px; box-shadow: 0px 10px 15px rgba(0,0,0,0.2); border-radius: 15px; border-color: 283655; border:2px solid #283655" /> <input type="submit", value="search", color="#7492B9" style="background-color:#283655;box-shadow: 0px 3px 15px rgba(0,0,0,0.2);color:#d0e1f9;font-size:20px; padding-left: 20px; padding-right: 20px; margin-left: 25px; border-radius: 15px; top: -5px; position: relative;" />
     <p></p>
     <p>Enter any recipe here.</p>
     <p>If you are not looking for a specific recipe, you can also click directly on search and the cheapest recipe will be displayed first.</p>
 </form>
     
-<div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 25px; justify-content: center; background-image: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); border-radius: 25px;margin-top: 20px;">
+<div class="grid-container" style="display: grid; grid-template-columns: 1fr 1fr 1fr;column-gap: 25px; justify-content: center; background-image: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); border-radius: 25px;margin-top: 20px;">
 {% if writeBool and nameArray|length > 0%}
     {% for i in range(nameArray|length)%}
 
-        <div class="card" style="width: 35rem; margin-bottom: 20px; border-radius: 25px ;margin-top: 20px; box-shadow: 0px 3px 15px rgba(0,0,0,0.2);">
+        <div class="card" style="width: 32rem; border-radius: 25px ;margin-top: 20px; box-shadow: 0px 3px 15px rgba(0,0,0,0.2);">
             <img src={{bildArray[i]}} class="card-img-top" alt="picture" height="400px" style="border-top-left-radius: 25px; border-top-right-radius: 25px;">
-            <a href={{bildArray[i]}} target="_blank" style="font-size: 12px; position: absolute; top: 380px; background-color: white;">picture</a>
+                <a href={{bildArray[i]}} target="_blank" style="font-size: 12px; position: absolute; top: 380px; background-color: white;">picture</a>
             <div class="card-body">
-            <h5 class="card-title" style="font-size: 25px;">{{nameArray[i]}}</h5>
-            <img src={{picArray[i]}} alt="picture" style="height: 75px; width: 75px; position: absolute; top: -15px; right: 20px; border-radius: 10px;">
-            <p class="card-text" style="font-size: 15px;">{{zubereitungArray[i]}}</p>
-            <p style="font-size: 15px;">{{naehrwerteArray[i]}}</p>
-            </div>
-            <ul class="list-group list-group-flush">
-                <table class="table">
-                    <thead class="thead">
+                <h5 class="card-title" style="font-size: 25px;">{{nameArray[i]}}</h5>
+                <img src={{picArray[i]}} alt="picture" style="height: 75px; width: 75px; position: absolute; top: -15px; right: 20px; border-radius: 10px;">
+                <p class="card-text" style="font-size: 15px;">{{zubereitungArray[i]}}</p>
+                <p style="font-size: 15px;">{{naehrwerteArray[i]}}</p>
+                <p style="color:#404040;font-size:20px; margin-top: 50px;">total price: {{preisArray[i]}}€</p> 
+                <ul class="list-group list-group-flush">
+                <table class="table" style="margin-top: 25px;">
+                    <thead class="thead-light">
                         <tr>
                             <th scope="col">product</th>
                             <th scope="col">quantity</th>
@@ -33,19 +33,17 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for j in range(zutatenArray|length) %}
+                        {% for j in range(zutatenArray|length+5) %}
                         <tr>
-                            <td style="font-size: 15px;">{{zutatenArray[i][j]}}</td>
-                            <td style="font-size: 15px;">{{mengeArray[i][j]}}</td>
-                            <td><a href={{linkArray[i][j]}} target="_blank" style="font-size: 12px;">{{linkArray[i][j]}}</a></td>
+                            <td style="font-size: 15px; border: none;">{{zutatenArray[i][j]}}</td>
+                            <td style="font-size: 15px;border: none;">{{mengeArray[i][j]}}</td>
+                            <td style="border: none;"><a href={{linkArray[i][j]}} target="_blank" style="font-size: 12px;">{{linkArray[i][j]}}</a></td>
                         </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>  
-                <div class="card-body" style="padding-bottom: 0px;">
-                    <p style="color:#404040;font-size:20px;">total price: {{preisArray[i]}}€</p> 
-                </div>
+                       {% endfor %}
+                    </tbody> 
+                </table>
             </ul>
+            </div>
         </div>
     {% endfor %}
     <a href="https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" style="font-size: 12px;">background-image</a>
