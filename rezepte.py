@@ -4,7 +4,7 @@ import numpy as np
 
 def preisRechnung():
     # Es ist sinnvoll eine Liste mit Dictionaries zu erstellen, da die vorherige Form doppelte keywords (z.B. 2 mal "name") beinhaltete. Deshalb die [] Klammern :)
-    rezepte =[{"name": "Nudeln mit Tomatensoßen und sadfsdfasd347625385234r43453452345ssssssssss", "beschreibung" : {
+    rezepte =[{"name": "Nudeln", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...asdfsdfsadfasdfsdzgutfw37rugtzwr86543grtuz2238465rftuz3gur235f7u6zitwifgwdg sdfgweg324rtwref",
                 "nährwerte" : "100 kcal, 10 g fett.....  ra4s576fudtzgfa5sdr6tg7sa6tdfr7tuasgdif56srdtgfzgtas5rdtzasd5fr6sdtzgf5asrdutziufasdf342trwefsdfdfas",
                 "menge" : ["2ml", "240g"],
@@ -23,10 +23,10 @@ def preisRechnung():
                 "bild" : "https://images.pexels.com/photos/432072/pexels-photo-432072.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%22%7D%7D"}},
                 
                 {"name": "bla", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["100g"],
-                "zutaten" : ["Barilla Fusilli 500g"],
+                "zubereitung" : "erst asdasdasdasdfsvsdrt32t3rdwefsdfd wasser kochen, dann...",
+                "nährwerte" : "100 kcal, 10 g fett..dsfgsdfggsa67gtufzhis8z76ftgzvbashdfz6gt7izuvsbdhiljgldfghsdghgf...",
+                "menge" : ["100g", "200g", "200g", "100g"],
+                "zutaten" : ["Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g"],
                 "link" : [],
                 "ernaehrungsform" : "fisch",
                 "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
@@ -138,6 +138,6 @@ def preisRechnung():
             i.update({'preis': round(preis, 2)})
 
             zutatenCount += 1
-        print(rezepte)
+        #print(rezepte)
     return rezepte
 
