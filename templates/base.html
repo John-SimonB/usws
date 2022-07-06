@@ -9,56 +9,46 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
         />
-        <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        crossorigin="anonymous"
-        />
         <title>{% block title %}Suchen{% endblock %}</title>
     </head>
-    <body style="background-color:#e5e5e5;">
-      <nav class="navbar navbar-expand-lg" style="background-color: #af9a84;" >
-        <a class="navbar-brand" href="/"><img src="https://play-lh.googleusercontent.com/A9i2Plw4UQgNP7sd5mRkHgcU4nlrp3d-op9r8XqKaW1OJGJnRjiiSU45aP9VvxXjkxg" alt="picture" height="65px"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-            <a class="nav-item nav-link" id="seite2" href="/Rezeptsuche" style="border-radius: 20px ;background-color: #283655 ;color: #d0e1f9;font-size: 20px; margin-left: 20px;">recipe search</a>
-            <a class="nav-item nav-link" id="seite3" href="/Datenvisualisation" style="border-radius: 20px ;background-color: #283655 ;color: #d0e1f9; font-size: 20px; margin-left: 20px;">dashboard </a>
-            <a class="nav-item nav-link" id="suchen" href="/" style="border-radius: 20px ;background-color: #283655 ;color: #d0e1f9; font-size: 20px; margin-left: 20px;">project description</a>
-          </div>
-        </div>
-      </nav>
+      <body>
+      <!-- <div class="hero"> -->
+
+        <!-- <nav>
+          <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/Projektbeschreibung">project description</a></li>
+            <li><a href="/Rezeptsuche">recipe search</a></li>
+            <li><a href="/Datenvisualisation">dashboard</a></li>
+          </ul>
+        </nav> -->
       
-      <div class="container">
-        {% block content %}
-        {% endblock content %}
-      </div>
+            {% block content %}
+            {% endblock content %}
+      <!-- </div> -->
+      </body>
+      <!-- <style>
+        nav{
+          background-color: brown;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding: 20px 8%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        nav ul li {
+          list-style: none;
+          display: inline-block;
+          margin-left: 40px;
+        }
+        nav ul li a{
+          text-decoration: none;
+          color: white;
+          font-size: 17px;
+        }
+      </style> -->
       
-      
-      <script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        type="text/javascript"
-        src="{{ url_for('static', filename='index.js') }}"
-      ></script>
-    </body>
   </html>

@@ -1,0 +1,476 @@
+{% extends "base.html" %} 
+{% block title %}Projektbeschreibung{% endblock %}
+{% block content %}
+<!--noch nichts-->
+<section id="home">
+        <section class="showcase">
+        <header>
+        <h2 class="logo">Recipe</h2>
+        <div class="toggle"></div>
+        </header>
+        
+        <video src="{{url_for('static',filename = 'images/video3.mp4')}}" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+        <h2>Stop spending </h2> 
+        <h3>too much on food</h3>
+        <p>The cost of food has exploded in 2022. With us, you can plan your meals inexpensively. Try it out!
+            Text für rezeptsuche:
+            Looking for a specific recipe? Enter it in the search bar. Otherwise, just click on search and you will see suggested recipes sorted by price.
+            Text Projektbeschreibung:
+            Inflation is being felt in every area of life. Especially students or people with low incomes are hit hard. That's why we want to remedy the situation in the most essential area of life with our project in Unternehmenssoftware in SS 2022: FOOD! 
+            With our prototype, people can view affordable recipes and also order directly from Flink. Meal planning has never been so easy!
+            On our dashboard, you can also view the different price trends of the products on Flink and also see other nice-to-know visualizations about the price developments in Germany regarding food.</p>
+        <a href="/Rezeptsuche">Recipe</a>
+        </div></section>
+        <div class="menu">
+            <ul>
+            <li><a href="#home">Home</a></li>            
+            <li><a href="#description">Project description</a></li>
+            <li><a href="#dash">Dashboard</a></li>
+            <li><a href="/Rezeptsuche">Recipe search</a></li>
+            </ul>
+        </div>
+</section>
+
+<!-- Seite 2 Projektbeschreibung -->
+<section id="description" class="description">
+  <h1>Project Description</h1>
+  <div class="content">
+    <img src="https://images.pexels.com/photos/669986/pexels-photo-669986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/ alt="" >
+    <h2>Topic</h2>
+    <h5>Some Description Some DescriptionSome Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description Some Description</h5>
+  </div>​​
+</section>
+
+
+<!-- Seite 3 Dashboard -->
+<section id="dash" class="dash">
+  <h1>TOpic</h1>
+  <div class="tableau">
+    <div class='tableauPlaceholder' id='viz1657125742894' style='position: absolute; border-radius: 20px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Monitoring of Consumer Price Index ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;consumerpriceindexoveryears&#47;Dashboard3&#47;1_rss.png' style='border: none' />
+        </a>
+      </noscript>
+        <object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+          <param name='embed_code_version' value='3' /> 
+          <param name='site_root' value='' />
+          <param name='name' value='consumerpriceindexoveryears&#47;Dashboard3' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;consumerpriceindexoveryears&#47;Dashboard3&#47;1.png' /> 
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='de-DE' />
+        </object>
+    </div>                
+      <script type='text/javascript'>
+          var divElement = document.getElementById('viz1657125742894');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          if ( divElement.offsetWidth > 800 ) 
+          { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        } else if ( divElement.offsetWidth > 500 ) { 
+          vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        } else { 
+          vizElement.style.width='100%';vizElement.style.height='1127px';
+        }                     
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+      </script>  
+    </div>
+
+  </section>
+
+  <!-- Seite 4 Dashboard -->
+  <section id="dash" class="dash">
+    <h1>Topic</h1>
+    <div class="tableau">
+      <div class='tableauPlaceholder' id='viz1657126294601' style='position: absolute; border-radius: 20px;'>
+      <noscript>
+        <a href='#'>
+          <img alt='Monitoring Dashboard for Flink Scrapes ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sc&#47;Scrape_data&#47;Dashboard5&#47;1_rss.png' style='border: none' />
+          </a>
+          </noscript>
+          <object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+          <param name='embed_code_version' value='3' /> 
+          <param name='site_root' value='' />
+          <param name='name' value='Scrape_data&#47;Dashboard5' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sc&#47;Scrape_data&#47;Dashboard5&#47;1.png' /> 
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='de-DE' />
+          </object>
+          </div>                
+          <script type='text/javascript'>              
+                var divElement = document.getElementById('viz1657126294601');            
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if ( divElement.offsetWidth > 800 ) { 
+                  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } 
+                else if ( divElement.offsetWidth > 500 ) { 
+                  vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else { 
+                  vizElement.style.width='100%';vizElement.style.height='877px';
+                }                     
+                var scriptElement = document.createElement('script');                  
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';           
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>      
+      </div>
+  </section>
+
+  <!-- Seite 5 Dashboard -->
+  <section id="dash" class="dash">
+    <h1>TOpic</h1>
+    <div class="tableau">
+      <div class='tableauPlaceholder' id='viz1657113769536' style='position: relative; border-radius: 20px; max-height: 400px;'><noscript><a href='#'><img alt='Consumer Price of Food ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;consumerpriceoffood&#47;Sheet11&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='consumerpriceoffood&#47;Sheet11' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;consumerpriceoffood&#47;Sheet11&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='de-DE' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1657113769536');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
+  
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+</body>
+
+<style>
+  div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+  .tableau{
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 10px 3px rgba(230, 230, 230, 0.2);
+    opacity: 0.9;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 90px;
+    margin-right: 100px;
+}
+
+  .tableau:hover {
+    transition: 0.3s;
+       transform: scale(1.04);
+  }
+
+  .dash h1{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 50px;
+  }
+
+
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: solid 1px white;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+
+
+  .description h1{
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 50px;
+  }
+  .content {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 100px;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  .content:hover{
+       transition: 0.3s;
+       transform: scale(1.03);
+  }
+
+  .content img {
+    width: 50%;
+    height: auto;
+    margin-right: 50px;
+    float: left;
+    box-shadow: 10px 10px 10px 3px rgba(230, 230, 230, 0.2);
+    opacity: 0.8;
+  }
+
+  .content h2,
+  .content h5{
+    margin-left: 100px;
+    display: block;
+    margin: 2px 0 0 0;
+  }
+
+
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active
+{
+  right: 300px;
+}
+.dash{
+  height: auto;
+}
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #878787c1;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #03a9f4; 
+}
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  color: #fff;
+  text-transform: uppercase;
+}
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+section{
+width: 100%;
+float: left;
+height: 100vh;
+position: relative;
+}
+
+
+#dash, #dash2, #description{
+    background-color: rgba(0, 0, 0, 0.878);
+    color: white;
+}
+
+
+</style>
+
+<script>
+
+
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    const menuToggle = document.querySelector('.toggle');
+         const showcase = document.querySelector('.showcase');
+   
+         menuToggle.addEventListener('click', () => {
+           menuToggle.classList.toggle('active');
+           showcase.classList.toggle('active');
+         })
+</script>
+
+{% endblock content %}
