@@ -4,60 +4,63 @@ import numpy as np
 
 def preisRechnung():
     # Es ist sinnvoll eine Liste mit Dictionaries zu erstellen, da die vorherige Form doppelte keywords (z.B. 2 mal "name") beinhaltete. Deshalb die [] Klammern :)
-    rezepte =[{"name": "Nudeln", "beschreibung" : {
+    rezepte =[
+        {"name": "Nudeln", "beschreibung" : {
                 "zubereitung" : "erst das wasser kochen, dann...asdfsdfsadfasdfsdzgutfw37rugtzwr86543grtuz2238465rftuz3gur235f7u6zitwifgwdg sdfgweg324rtwref",
                 "nährwerte" : "100 kcal, 10 g fett.....  ra4s576fudtzgfa5sdr6tg7sa6tdfr7tuasgdif56srdtgfzgtas5rdtzasd5fr6sdtzgf5asrdutziufasdf342trwefsdfdfas",
-                "menge" : ["2ml", "240g"],
-                "zutaten" : ["Thomy Reines Sonnenblumenöl 750ml", "Bella & Bona Bagel Salmon 240g"],
+                "menge" : ["2S", "500g"],
+                "zutaten" : ["Aubergine 1 Stk. (Deutschland)", "Barilla Penne Rigate 500g"],
                 "link" : [],
                 "ernaehrungsform" : "vegan",
                 "bild" : "https://images.pexels.com/photos/2092906/pexels-photo-2092906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
 
-                {"name": "Pasta alla Norma", "beschreibung" : {
-                "zubereitung" : "Heat some olive oil in a pot and sweat the garlic in it. Then add the peeled tomatoes. Simmer over low heat for 10-15 minutes. Heat a pot with plenty of salted water and cook the pasta al dente according to package instructions. Cut the eggplants into slices. Heat a pan with plenty of sunflower oil. Fry the eggplant slices on both sides. Put them on a baking tray covered with kitchen roll and let them drain. Season with salt and pepper. Grate the ricotta salata with a kitchen grater. Add the finished pasta to the pot with the tomato sauce. Add the fried eggplant and a few basil leaves and stir everything well. Divide the pasta among deep plates and sprinkle the ricotta salata on top. Buon appetito!",
-                "nährwerte" : "Calories: 102kcal, Carbohydrates: 13.4g, Protein: 2.7g, Fat: 1.8g",
-                "menge" : ["500g", "3g", "200g", "5ml", "5g", "1g", "1g"],
-                "zutaten" : ["Barilla Penne Rigate 500g", "Iglo Knoblauch-Duo 60g", "Marziale Tortelloni Ricotta Spinaci 250g", "Thomy Reines Sonnenblumenöl 750ml", "Iglo Basilikum 50g", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
-                "link" : [],
-                "ernaehrungsform" : "asdfasdfasdfsdf",
-                "bild" : "https://images.pexels.com/photos/432072/pexels-photo-432072.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%22%7D%7D"}},
+                # {"name": "Pasta alla Norma", "beschreibung" : {
+                # "zubereitung" : "Heat some olive oil in a pot and sweat the garlic in it. Then add the peeled tomatoes. Simmer over low heat for 10-15 minutes. Heat a pot with plenty of salted water and cook the pasta al dente according to package instructions. Cut the eggplants into slices. Heat a pan with plenty of sunflower oil. Fry the eggplant slices on both sides. Put them on a baking tray covered with kitchen roll and let them drain. Season with salt and pepper. Grate the ricotta salata with a kitchen grater. Add the finished pasta to the pot with the tomato sauce. Add the fried eggplant and a few basil leaves and stir everything well. Divide the pasta among deep plates and sprinkle the ricotta salata on top. Buon appetito!",
+                # "nährwerte" : "Calories: 102kcal, Carbohydrates: 13.4g, Protein: 2.7g, Fat: 1.8g",
+                # "menge" : ["500g", "3g", "200g", "5ml", "5g", "1g", "1g"],
+                # "zutaten" : ["Barilla Penne Rigate 500g", "Iglo Knoblauch-Duo 60g", "Marziale Tortelloni Ricotta Spinaci 250g", "Thomy Reines Sonnenblumenöl 750ml", "Iglo Basilikum 50g", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
+                # "link" : [],
+                # "ernaehrungsform" : "asdfasdfasdfsdf",
+                # "bild" : "https://images.pexels.com/photos/432072/pexels-photo-432072.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%22%7D%7D"}},
                 
-                {"name": "bla", "beschreibung" : {
-                "zubereitung" : "erst asdasdasdasdfsvsdrt32t3rdwefsdfd wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett..dsfgsdfggsa67gtufzhis8z76ftgzvbashdfz6gt7izuvsbdhiljgldfghsdghgf...",
-                "menge" : ["100g", "200g", "200g", "100g"],
-                "zutaten" : ["Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g"],
-                "link" : [],
-                "ernaehrungsform" : "fisch",
-                "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
+                # {"name": "bla", "beschreibung" : {
+                # "zubereitung" : "erst asdasdasdasdfsvsdrt32t3rdwefsdfd wasser kochen, dann...",
+                # "nährwerte" : "100 kcal, 10 g fett..dsfgsdfggsa67gtufzhis8z76ftgzvbashdfz6gt7izuvsbdhiljgldfghsdghgf...",
+                # "menge" : ["100g", "200g", "200g", "100g"],
+                # "zutaten" : ["Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g"],
+                # "link" : [],
+                # "ernaehrungsform" : "fleisch",
+                # "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
                 
-                {"name": "fisch", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["40g"],
-                "zutaten" : ["Bella & Bona Bagel Salmon 240g"],
-                "link" : [],
-                "ernaehrungsform" : "fisch",
-                "bild" : "https://www.bofrost.de/medias/11513-DE-lachsfilet-naturbelassen-pic1.jpg-W1440xH1200R1.2?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDc0MDk1M3xpbWFnZS9qcGVnfHByb2R1Y3QtaW1hZ2VzL2hlMS9oMzIvOTA1ODEwODA0NzM5MC5qcGd8ZjNjOWMwNjI2NzJkZjUyN2ZiYjg2NmUyOTE5ODA1NjlhYjc4ODU0ZjkwMjI2NTg1ZjUwZThjY2M5ZDEwMTIyNg"}},
+                # {"name": "fisch", "beschreibung" : {
+                # "zubereitung" : "erst das wasser kochen, dann...",
+                # "nährwerte" : "100 kcal, 10 g fett.....",
+                # "menge" : ["40g"],
+                # "zutaten" : ["Bella & Bona Bagel Salmon 240g"],
+                # "link" : [],
+                # "ernaehrungsform" : "fisch",
+                # "bild" : "https://www.bofrost.de/medias/11513-DE-lachsfilet-naturbelassen-pic1.jpg-W1440xH1200R1.2?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDc0MDk1M3xpbWFnZS9qcGVnfHByb2R1Y3QtaW1hZ2VzL2hlMS9oMzIvOTA1ODEwODA0NzM5MC5qcGd8ZjNjOWMwNjI2NzJkZjUyN2ZiYjg2NmUyOTE5ODA1NjlhYjc4ODU0ZjkwMjI2NTg1ZjUwZThjY2M5ZDEwMTIyNg"}},
 
-                {"name": "steak", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["5000g"],
-                "zutaten" : ["Bella & Bona Bagel Salmon 240g"],
-                "link" : [],
-                "ernaehrungsform" : "fisch",
-                "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
+                # {"name": "steak", "beschreibung" : {
+                # "zubereitung" : "erst das wasser kochen, dann...",
+                # "nährwerte" : "100 kcal, 10 g fett.....",
+                # "menge" : ["480g"],
+                # "zutaten" : ["Bella & Bona Bagel Salmon 240g"],
+                # "link" : [],
+                # "ernaehrungsform" : "fisch",
+                # "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
 
-                {"name": "123123123", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["2400000g"],
-                "zutaten" : ["Bella & Bona Bagel Salmon 240g"],
-                "link" : [],
-                "ernaehrungsform" : "fleisch",
-                "bild" : "https://images.pexels.com/photos/8862752/pexels-photo-8862752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}}
+                # {"name": "123123123", "beschreibung" : {
+                # "zubereitung" : "erst das wasser kochen, dann...",
+                # "nährwerte" : "100 kcal, 10 g fett.....",
+                # "menge" : ["2kg"],
+                # "zutaten" : ["Bio Broccoli 1 Stk. (Deutschland)"],
+                # "link" : [],
+                # "ernaehrungsform" : "fleisch",
+                # "bild" : "https://images.pexels.com/photos/8862752/pexels-photo-8862752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}}
+            
             ]
+
 
 
     # productname,size,newprice,oldprice,link
@@ -90,15 +93,15 @@ def preisRechnung():
                 else:
                     sizeProd = angeboteArray[1][np.where(angeboteArray[0] == j)]
                 sizeRez = i["beschreibung"]["menge"][zutatenCount]
-                
+            
                 # mögliche Einheiten sind g oder kg, l oder ml
-                if sizeRez[-1] == "g" or sizeRez[-1] == "l":
+                if sizeRez[-1] == "g" or sizeRez[-1] == "l" or sizeRez[-1] == "S":
                     if sizeRez[-2] == "k" or sizeRez[-2] == "m":
                         sizeRezNum = float(sizeRez[:-2])
                     else:
                         sizeRezNum = float(sizeRez[:-1])
                 
-                if sizeProd[-1] == "g" or sizeProd[-1] == "l":
+                if sizeProd[-1] == "g" or sizeProd[-1] == "l" or sizeRez[-1] == "S":
                     if sizeProd[-2] == "k" or sizeProd[-2] == "m":
                         sizeProdNum = float(sizeProd[:-2])
                     else:
@@ -107,6 +110,7 @@ def preisRechnung():
                 
                 # [0], da es sich nur um ein Element handelt
                 preis += float(angeboteArray[2][np.where(angeboteArray[0] == j)][0].replace(",", "."))*sizeRezNum/sizeProdNum
+
                 index = np.where(angeboteArray[0] == j)
                 link = angeboteArray[4][index]
                 i["beschreibung"]["link"].append(link[0])
@@ -120,18 +124,21 @@ def preisRechnung():
                 sizeRez = i["beschreibung"]["menge"][zutatenCount]
 
                 # mögliche Einheiten sind g oder kg, l oder ml
-                if sizeRez[-1] == "g" or sizeRez[-1] == "l":
+                if sizeRez[-1] == "g" or sizeRez[-1] == "l" or sizeRez[-1] == "S":
                     if sizeRez[-2] == "k" or sizeRez[-2] == "m":
-                        sizeRezNum = float(sizeRez[:-2])
+                        if sizeRez[-2] == "k" or sizeRez[-2] == "m":
+                            sizeRezNum = float(sizeRez[:-2])
                     else:
                         sizeRezNum = float(sizeRez[:-1])
                 
-                if sizeProd[-1] == "g" or sizeProd[-1] == "l":
-                    if sizeProd[-2] == "k" or sizeProd[-2] == "m":
+                if sizeProd[-1] == "g" or sizeProd[-1] == "l" or sizeRez[-1] == "S":
+                    if sizeProd[-2] == "k" or sizeProd[-2] == "m" :
                         sizeProdNum = float(sizeProd[:-2])
                     else:
                         sizeProdNum = float(sizeProd[:-1])
+                
                 preis += float(allproductsArray[2][np.where(allproductsArray[0] == j)][0].replace(",", "."))*sizeRezNum/sizeProdNum
+                
                 index = np.where(allproductsArray[0] == j)
                 link = allproductsArray[4][index]
                 i["beschreibung"]["link"].append(link[0])
@@ -140,4 +147,5 @@ def preisRechnung():
             zutatenCount += 1
         #print(rezepte)
     return rezepte
+
 

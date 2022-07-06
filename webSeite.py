@@ -17,8 +17,9 @@ app = createApp('REZEPTE')
 
 # verschiedene Seiten
 @app.route("/")
-def projectPage():
-    return render_template("Projektbeschreibung.html")
+def test():
+    return render_template("home.html")
+
 
 
 @app.route("/Rezeptsuche", methods=["POST", "GET"])
@@ -102,9 +103,8 @@ def searchPage():
         return render_template("Rezeptsuche.html", nameArray=nameArray, zubereitungArray=zubereitungArray, naehrwerteArray=naehrwerteArray, zutatenArray=zutatenArray, mengeArray=mengeArray, preisArray=preisArray, bildArray=bildArray, sales=sales,allproducts=allproducts,linkArray=linkArray,picArray=picArray, writeBool = False)
 
 
-@app.route("/Datenvisualisation")
-def dataPage():
-    return render_template("Datenvisualisation.html")
+
+
 
 
 
