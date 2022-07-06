@@ -1,7 +1,4 @@
 productname,size,newprice,oldprice,link
-Nestlé Cini Minis 625g,625g,"4,99",0,https://www.goflink.com//de-DE/shop/product/nestle-cini-minis-625g-11012342/
-Nestlé Lions Cereals 675g,675g,"4,99",0,https://www.goflink.com//de-DE/shop/product/675g-nestle-lions-cereals-675g-11012343/
-Nestlé Nesquik Knusper Frühstück 625g,625g,"4,99",0,https://www.goflink.com//de-DE/shop/product/nestle-nesquik-knusper-fruhstuck-625g-11015352/
 3Bears Porridge Exotische Früchte 400g,400g,"1,50","4,99",https://www.goflink.com//de-DE/shop/product/3bears-porridge-exotische-fruchte-400g-11011588/
 3Bears Porridge Feiner Kakao 400g,400g,"4,99",0,https://www.goflink.com//de-DE/shop/product/3bears-porridge-feiner-kakao-400g-11011585/
 3Bears Porridge Kerniger Klassiker 400g,400g,"3,99",0,https://www.goflink.com//de-DE/shop/product/3bears-porridge-kerniger-klassiker-400g-11011587/
@@ -69,14 +66,14 @@ Bonne Maman Heidelbeer-Konfitüre 370g,370g,"2,99",0,https://www.goflink.com//de
 Bonne Maman Himbeer-Konfitüre 370g,370g,"2,99",0,https://www.goflink.com//de-DE/shop/product/bonne-maman-himbeer-konfiture-370g-11014486/
 Bonne Maman Pfirsich-Konfitüre 370g,370g,"2,99",0,https://www.goflink.com//de-DE/shop/product/bonne-maman-pfirsich-konfiture-370g-11014487/
 Darbo Naturrein Garten Erdbeereen Konfitüre Extra 225g,225g,"1,99",0,https://www.goflink.com//de-DE/shop/product/darbo-naturrein-garten-erdbeere-225g-11010270/
-Flink Bio Apfel-Rosine-Zimt Aufstrich 160g,160g,"2,89",0,https://www.goflink.com//de-DE/shop/product/flink-organic-apfel-rosine-zimt-160g-11014750/
-Flink Bio Erdbeer-Holunderblüte Aufstrich 160g,160g,"2,89",0,https://www.goflink.com//de-DE/shop/product/flink-organic-erdbeere-holunder-160g-11014625/
-Flink Bio Kirsch-Banane Aufstrich 160g,160g,"2,89",0,https://www.goflink.com//de-DE/shop/product/flink-organic-kirsch-banane-160g-11014627/
-Flink Bio Kirsch-Schoko Aufstrich 160g,160g,"2,89",0,https://www.goflink.com//de-DE/shop/product/flink-organic-kirsch-schoko-160g-11014626/
-Flink Bio Orangen Aufstrich 160g,160g,"2,89",0,https://www.goflink.com//de-DE/shop/product/flink-organic-orange-160g-11014624/
-Glück Marmelade Erdbeere 230g,230g,"2,79",0,https://www.goflink.com//de-DE/shop/product/gluck-marmelade-erdbeere-230g-11010259/
-Glück Marmelade Himbeere 230g,230g,"2,79",0,https://www.goflink.com//de-DE/shop/product/gluck-marmelade-himbeere-230g-11010260/
-Grafschafter Goldsaft Zuckerrübensirup 450g,450g,"1,49",0,https://www.goflink.com//de-DE/shop/product/grafschafter-goldsaft-zuckerrubensirup-450g-11018020/
+Flink Bio Apfel-Rosine-Zimt Aufstrich 160g,160g,"2,58","2,89",https://www.goflink.com//de-DE/shop/product/flink-organic-apfel-rosine-zimt-160g-11014750/
+Flink Bio Erdbeer-Holunderblüte Aufstrich 160g,160g,"2,58","2,89",https://www.goflink.com//de-DE/shop/product/flink-organic-erdbeere-holunder-160g-11014625/
+Flink Bio Kirsch-Banane Aufstrich 160g,160g,"2,58","2,89",https://www.goflink.com//de-DE/shop/product/flink-organic-kirsch-banane-160g-11014627/
+Flink Bio Kirsch-Schoko Aufstrich 160g,160g,"2,58","2,89",https://www.goflink.com//de-DE/shop/product/flink-organic-kirsch-schoko-160g-11014626/
+Flink Bio Orangen Aufstrich 160g,160g,"2,58","2,89",https://www.goflink.com//de-DE/shop/product/flink-organic-orange-160g-11014624/
+Glück Marmelade Erdbeere 230g,230g,"2,89",0,https://www.goflink.com//de-DE/shop/product/gluck-marmelade-erdbeere-230g-11010259/
+Glück Marmelade Himbeere 230g,230g,"2,89",0,https://www.goflink.com//de-DE/shop/product/gluck-marmelade-himbeere-230g-11010260/
+Grafschafter Goldsaft Zuckerrübensirup 450g,450g,"1,59",0,https://www.goflink.com//de-DE/shop/product/grafschafter-goldsaft-zuckerrubensirup-450g-11018020/
 Hannah & Paula's Cheers Cabernet Sauvignon 150g,150g,"2,19","7,29",https://www.goflink.com//de-DE/shop/product/hannah-and-paulas-cheers-cabernet-sauvignon-150g-11014845/
 Hannah & Paula's Cheers Chardonnay 150g,150g,"2,19","7,29",https://www.goflink.com//de-DE/shop/product/hannah-and-paulas-cheers-chardonnay-150g-11014841/
 Hannah & Paula's Cheers Merlot 150g,150g,"2,19","7,29",https://www.goflink.com//de-DE/shop/product/hannah-and-paulas-cheers-merlot-150g-11014842/
@@ -92,7 +89,7 @@ Schwartau Extra Aprikose Konfitüre 340g,340g,"1,29","2,59",https://www.goflink.
 Schwartau Extra Erdbeere Konfitüre 340g,340g,"1,29","2,59",https://www.goflink.com//de-DE/shop/product/schwartau-extra-erdbeere-konfiture-340g-11014485/
 Schwartau Extra Himbeere Konfitüre 340g,340g,"2,07","2,59",https://www.goflink.com//de-DE/shop/product/schwartau-extra-himbeere-konfiture-340g-11014497/
 Schwartau Extra Waldfrucht Konfitüre 340g,340g,"0,78","2,59",https://www.goflink.com//de-DE/shop/product/schwartau-extra-waldfrucht-konfiture-340g-11014495/
-Schwartau Marmelade Weniger Zucker Aprikose 300g,300g,"2,79",0,https://www.goflink.com//de-DE/shop/product/schwartau-marmelade-weniger-zucker-aprikose-300g-11010263/
+Schwartau Marmelade Weniger Zucker Aprikose 300g,300g,"2,59",0,https://www.goflink.com//de-DE/shop/product/schwartau-marmelade-weniger-zucker-aprikose-300g-11010263/
 Schwartau Marmelade Weniger Zucker Erdbeere 300g,300g,"2,59",0,https://www.goflink.com//de-DE/shop/product/schwartau-marmelade-weniger-zucker-erdbeere-300g-11010264/
 Schwartau Samt Aprikose Fruchtaufstrich ohne Stücke & ohne Kerne 270g,270g,"2,79",0,https://www.goflink.com//de-DE/shop/product/schwartau-samt-aprikose-fruchtaufstrich-ohne-stucke-and-ohne-kerne-270g-11014482/
 Schwartau Samt Erdbeer-Vanille Fruchtaufstrich ohne Stücke & ohne Kerne 270g,270g,"1,39","2,79",https://www.goflink.com//de-DE/shop/product/schwartau-samt-erdbeer-vanille-fruchtaufstrich-ohne-stucke-and-ohne-kerne-270g-11014483/
@@ -101,9 +98,6 @@ Schwartau Samt Himbeere Fruchtaufstrich ohne Stücke & ohne Kerne 270g,270g,"2,9
 Tannenliebe Gelee 150g,150g,"3,39","3,99",https://www.goflink.com//de-DE/shop/product/tannenliebe-gelee-150g-11016350/
 Zentis Natur Rein Fruchtaufstrich passiert 75% Frucht Erdbeere 200g,200g,"2,69",0,https://www.goflink.com//de-DE/shop/product/zentis-natur-rein-fruchtaufstrich-75-frucht-erdbeere-200g-11016371/
 Zentis Natur Rein Fruchtaufstrich passiert 75% Frucht Himbeere 200g,200g,"2,69",0,https://www.goflink.com//de-DE/shop/product/zentis-natur-rein-fruchtaufstrich-passiert-75-frucht-himbeere-200g-11016361/
-Nestlé Cini Minis 625g,625g,"4,99",0,https://www.goflink.com//de-DE/shop/product/nestle-cini-minis-625g-11012342/
-Nestlé Lions Cereals 675g,675g,"4,99",0,https://www.goflink.com//de-DE/shop/product/675g-nestle-lions-cereals-675g-11012343/
-Nestlé Nesquik Knusper Frühstück 625g,625g,"4,99",0,https://www.goflink.com//de-DE/shop/product/nestle-nesquik-knusper-fruhstuck-625g-11015352/
 Kellogg's 8er Variety Cerealien 205g,205g,"2,99",0,https://www.goflink.com//de-DE/shop/product/kelloggs-8er-variety-cerealien-205g-11017519/
 Kellogg's Choco Krispies 330g,330g,"2,99",0,https://www.goflink.com//de-DE/shop/product/kelloggs-choco-krispies-330g-11010275/
 Kellogg's Cornflakes 375g,375g,"2,99",0,https://www.goflink.com//de-DE/shop/product/kelloggs-cornflakes-375g-11016137/
@@ -119,9 +113,12 @@ Kellogg´s Choco Krispies Chocos 700g,700g,"1,44","4,79",https://www.goflink.com
 Kellogg´s Frosties 700g,700g,"1,44","4,79",https://www.goflink.com//de-DE/shop/product/kellogg-s-frosties-700g-11015355/
 Kölln Müsli Knusper Schoko & Keks Kakao 500g,500g,"3,49",0,https://www.goflink.com//de-DE/shop/product/kolln-musli-knusper-schoko-and-keks-kakao-500g-11017853/
 Nestlé Cerealien 6er Mix Pack 190g,190g,"2,99",0,https://www.goflink.com//de-DE/shop/product/nestle-cerealien-6er-mix-pack-190g-11017522/
+Nestlé Cini Minis 625g,625g,"4,99",0,https://www.goflink.com//de-DE/shop/product/nestle-cini-minis-625g-11012342/
 Nestlé Cini Minis Churros 360g,360g,"2,99",0,https://www.goflink.com//de-DE/shop/product/nestle-cini-minis-churros-360g-11017711/
 Nestlé Fitness Frühstückscerealien mit 58% Vollkorn 375g,375g,"3,49",0,https://www.goflink.com//de-DE/shop/product/nestle-fitness-fruhstuckscerealien-mit-58-vollkorn-375g-11015351/
+Nestlé Lions Cereals 675g,675g,"4,99",0,https://www.goflink.com//de-DE/shop/product/675g-nestle-lions-cereals-675g-11012343/
 Nestlé Nesquik Duo 325g,325g,"2,99",0,https://www.goflink.com//de-DE/shop/product/nestle-nesquik-duo-325g-11017323/
+Nestlé Nesquik Knusper Frühstück 625g,625g,"4,99",0,https://www.goflink.com//de-DE/shop/product/nestle-nesquik-knusper-fruhstuck-625g-11015352/
 REWE Bio zarte Haferflocken 500g,500g,"1,19",0,https://www.goflink.com//de-DE/shop/product/rewe-bio-zarte-haferflocken-500g-11016373/
 3Bears Pocket Porridge Mohnige Banane 55g,55g,"1,89",0,https://www.goflink.com//de-DE/shop/product/3bears-pocket-porridge-mohnige-banane-55g-11011590/
 3Bears Pocket Porridge Zimtiger Apfel 55g,55g,"1,89",0,https://www.goflink.com//de-DE/shop/product/3bears-pocket-porridge-zimtiger-apfel-55g-11011591/
@@ -139,10 +136,10 @@ Corny Schoko 150g (6x25g),6x25g,"1,49",0,https://www.goflink.com//de-DE/shop/pro
 Corny Schoko-Banane 6x25g,6x25g,"1,49",0,https://www.goflink.com//de-DE/shop/product/corny-schoko-banane-6x25g-11015671/
 Foodspring Protein Cookie Chocolate Chip 50g,50g,"2,49",0,https://www.goflink.com//de-DE/shop/product/protein-cookie-chocolate-chip-50g-11011246/
 Foodspring Protein Cookie White Chocolate Almond 50g,50g,"2,49",0,https://www.goflink.com//de-DE/shop/product/protein-cookie-white-chocolate-almond-50g-11011247/
-Hafervoll Flapjack Banane-Paranuss 65g,65g,"1,89",0,https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-banane-paranuss-65g-11017933/
-Hafervoll Flapjack Cashew-Cranberry 65g,65g,"1,89",0,https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-cashew-cranberry-65g-11017934/
-Hafervoll Flapjack Chia Dattel & Pistazie 65g,65g,"1,89",0,https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-chia-dattel-and-pistazie-65g-11017936/
-Hafervoll Flapjack Kakao-Haselnuss 65g,65g,"1,89",0,https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-kakao-haselnuss-65g-11017935/
+Hafervoll Flapjack Banane-Paranuss 65g,65g,"1,57","1,99",https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-banane-paranuss-65g-11017933/
+Hafervoll Flapjack Cashew-Cranberry 65g,65g,"1,57","1,99",https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-cashew-cranberry-65g-11017934/
+Hafervoll Flapjack Chia Dattel & Pistazie 65g,65g,"1,57","1,99",https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-chia-dattel-and-pistazie-65g-11017936/
+Hafervoll Flapjack Kakao-Haselnuss 65g,65g,"1,57","1,99",https://www.goflink.com//de-DE/shop/product/hafervoll-flapjack-kakao-haselnuss-65g-11017935/
 Hej Nutrition Crispy Protein Bar Crunchy Brownie 45g,45g,"2,39",0,https://www.goflink.com//de-DE/shop/product/hej-nutrition-crispy-protein-bar-crunchy-brownie-45g-11015919/
 Hej Nutrition Crispy Protein Bar White Choco Peanut 45g,45g,"0,72","2,39",https://www.goflink.com//de-DE/shop/product/hej-nutrition-crispy-protein-bar-white-choco-peanut-45g-11015918/
 Kraftling der Frische Riegel Banane & Mohn 65g,65g,"1,99",0,https://www.goflink.com//de-DE/shop/product/kraftling-riegel-banane-mohn-65g-11015698/

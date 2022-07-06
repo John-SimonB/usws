@@ -1,7 +1,7 @@
 productname,size,newprice,oldprice,link
-Ahoj Brause Cola & Orange 0.33l Dose,Dose,"0,99",0,https://www.goflink.com//de-DE/shop/product/ahoj-brause-cola-and-orange-0-33l-dose-11016930/
-Ahoj Brause Himbeere 0.33l Dose,Dose,"0,99",0,https://www.goflink.com//de-DE/shop/product/ahoj-brause-himbeere-0-33l-dose-11016932/
-Ahoj Brause Waldmeister 0.33l Dose,Dose,"0,99",0,https://www.goflink.com//de-DE/shop/product/ahoj-brause-waldmeister-0-33l-dose-11016931/
+Capri Sun Kirsch 10x0.2l,"10x0,2l","3,29",0,https://www.goflink.com//de-DE/shop/product/capri-sun-kirsch-10x200ml-11010342/
+Capri Sun Multivitamin 10x0.2l,"10x0,2l","3,29",0,https://www.goflink.com//de-DE/shop/product/capri-sun-multivitamin-10x200ml-11010344/
+Capri Sun Safari Fruits 10x0.2l,"10x0,2l","3,29",0,https://www.goflink.com//de-DE/shop/product/capri-sun-safari-fruits-10x200ml-11010343/
 Ahoj Brause Cola & Orange 0.33l Dose,Dose,"0,99",0,https://www.goflink.com//de-DE/shop/product/ahoj-brause-cola-and-orange-0-33l-dose-11016930/
 Ahoj Brause Himbeere 0.33l Dose,Dose,"0,99",0,https://www.goflink.com//de-DE/shop/product/ahoj-brause-himbeere-0-33l-dose-11016932/
 Ahoj Brause Waldmeister 0.33l Dose,Dose,"0,99",0,https://www.goflink.com//de-DE/shop/product/ahoj-brause-waldmeister-0-33l-dose-11016931/
@@ -47,9 +47,9 @@ Fürst Bismarck Apfelschorle 1l,1l,"1,49",0,https://www.goflink.com//de-DE/shop/
 Gaffel Fassbrause Apfel 0.33l,"0,33l","0,89",0,https://www.goflink.com//de-DE/shop/product/gaffel-fassbrause-apfel-0-33l-11011687/
 Gaffel Fassbrause Zitrone 0.33l,"0,33l","0,89",0,https://www.goflink.com//de-DE/shop/product/gaffel-fassbrause-zitrone-0-33l-11011688/
 Gerolsteiner Apfelschorle 0.75l,"0,75l","1,19",0,https://www.goflink.com//de-DE/shop/product/gerolsteiner-apfelschorle-0-75l-11017088/
-Lemonaid Ingwer Bio 0.33l,"0,33l","1,69",0,https://www.goflink.com//de-DE/shop/product/lemonaid-ingwer-bio-330ml-11012966/
-Lemonaid Limette Bio 0.33l,"0,33l","1,69",0,https://www.goflink.com//de-DE/shop/product/lemonaid-limette-bio-330ml-11011183/
-Lemonaid Maracuja Bio 0.33l,"0,33l","1,69",0,https://www.goflink.com//de-DE/shop/product/lemonaid-maracuja-bio-0-33l-11014531/
+Lemonaid Ingwer Bio 0.33l,"0,33l","1,39","1,69",https://www.goflink.com//de-DE/shop/product/lemonaid-ingwer-bio-330ml-11012966/
+Lemonaid Limette Bio 0.33l,"0,33l","1,39","1,69",https://www.goflink.com//de-DE/shop/product/lemonaid-limette-bio-330ml-11011183/
+Lemonaid Maracuja Bio 0.33l,"0,33l","1,39","1,69",https://www.goflink.com//de-DE/shop/product/lemonaid-maracuja-bio-0-33l-11014531/
 Lipz Johannisbeerschorle 0.5l,"0,5l","1,44","1,69",https://www.goflink.com//de-DE/shop/product/lipz-johannisbeerschorle-0-5l-11015736/
 Lipz Rhabarberschorle 0.5l,"0,5l","1,44","1,69",https://www.goflink.com//de-DE/shop/product/lipz-rhabarberschorle-0-5l-11015735/
 Mio Mio Cola 0.5l,"0,5l","0,79","0,99",https://www.goflink.com//de-DE/shop/product/mio-mio-cola-0-5l-11013951/
@@ -79,6 +79,9 @@ Vita Cola Pur 1l,1l,"1,19",0,https://www.goflink.com//de-DE/shop/product/vita-co
 Vitamalz 0.33l,"0,33l","0,79",0,https://www.goflink.com//de-DE/shop/product/vitamalz-0-33l-11014824/
 Vitamin Well Hydrate Erdbeer & Rhabarber 0.5l,"0,5l","1,89",0,https://www.goflink.com//de-DE/shop/product/vitamin-well-hydrate-erdbeer-and-rhabarber-0-5l-11015920/
 Vitamin Well Reload Zitrone & Limette 0.5l,"0,5l","1,89",0,https://www.goflink.com//de-DE/shop/product/vitamin-well-reload-zitrone-and-limette-0-5l-11015921/
+Innocent Multi Mix Orange,Orange,"0,90","2,99",https://www.goflink.com//de-DE/shop/product/innocent-multi-mix-orange-11015371/
+Innocent Orangensaft mit Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-mit-fruchtfleisch-0-9l-11011177/
+Innocent Orangensaft ohne Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-ohne-fruchtfleisch-0-9l-11011178/
 Beckers Bester Apfelsaft Klar 1l,1l,"1,59","1,99",https://www.goflink.com//de-DE/shop/product/beckers-bester-apfelsaft-klar-1l-11013131/
 Capri Sun Kirsch 10x0.2l,"10x0,2l","3,29",0,https://www.goflink.com//de-DE/shop/product/capri-sun-kirsch-10x200ml-11010342/
 Capri Sun Multivitamin 0.33l,"0,33l","0,89",0,https://www.goflink.com//de-DE/shop/product/capri-sun-multivitamin-0-33l-11017094/
@@ -105,9 +108,6 @@ Hohes C Plus Eisen 1l,1l,"1,79",0,https://www.goflink.com//de-DE/shop/product/ho
 Hohes C Plus Sonnenvitamin D 1l,1l,"1,79",0,https://www.goflink.com//de-DE/shop/product/hohes-c-plus-sonnenvitamin-d-1l-11013316/
 Hohes C Super Shot Antiox 0.33l,"0,33l","1,99",0,https://www.goflink.com//de-DE/shop/product/hohes-c-super-shot-antiox-0-33l-11016335/
 Hohes C Super Shot Immun 0.33l,"0,33l","1,99",0,https://www.goflink.com//de-DE/shop/product/hohes-c-super-shot-immun-0-33l-11016337/
-Innocent Multi Mix Orange,Orange,"0,90","2,99",https://www.goflink.com//de-DE/shop/product/innocent-multi-mix-orange-11015371/
-Innocent Orangensaft mit Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-mit-fruchtfleisch-0-9l-11011177/
-Innocent Orangensaft ohne Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-ohne-fruchtfleisch-0-9l-11011178/
 REWE Bio Apfelsaft Naturtrüb 1l,1l,"1,69",0,https://www.goflink.com//de-DE/shop/product/rewe-bio-apfelsaft-naturtrub-1l-11013132/
 Voelkel Bio Apfelsaft 0.75l,"0,75l","1,19",0,https://www.goflink.com//de-DE/shop/product/voelkel-bio-apfelsaft-0-75l-11011182/
 Arizona Green Tea Honey 0.5l,"0,5l","1,19",0,https://www.goflink.com//de-DE/shop/product/arizona-green-tea-with-honey-500ml-11013134/
@@ -118,10 +118,10 @@ BraTee Pfirsich 0.75l,"0,75l","1,69",0,https://www.goflink.com//de-DE/shop/produ
 BraTee Zitrone 0.75l,"0,75l","1,18","1,69",https://www.goflink.com//de-DE/shop/product/bratee-zitrone-750ml-11013661/
 Carpe Diem Kombucha Classic 0.5l,"0,5l","1,29",0,https://www.goflink.com//de-DE/shop/product/carpe-diem-kombucha-classic-500ml-11013275/
 Carpe Diem Zitrone-Ingwer 0.5l,"0,5l","0,64","1,29",https://www.goflink.com//de-DE/shop/product/carpe-diem-zitrone-ingwer-0-5l-11015242/
-Charitea Black Bio 0.33l,"0,33l","1,69",0,https://www.goflink.com//de-DE/shop/product/charitea-black-bio-330ml-11011184/
-Charitea Green Bio 0.33l,"0,33l","1,69",0,https://www.goflink.com//de-DE/shop/product/charitea-green-bio-330ml-11011185/
-Charitea Mate Bio 0.33l,"0,33l","1,69",0,https://www.goflink.com//de-DE/shop/product/charitea-mate-bio-330ml-11011186/
-Charitea Red Bio 0.33l,"0,33l","1,69",0,https://www.goflink.com//de-DE/shop/product/charitea-red-bio-330ml-11011187/
+Charitea Black Bio 0.33l,"0,33l","1,39","1,69",https://www.goflink.com//de-DE/shop/product/charitea-black-bio-330ml-11011184/
+Charitea Green Bio 0.33l,"0,33l","1,39","1,69",https://www.goflink.com//de-DE/shop/product/charitea-green-bio-330ml-11011185/
+Charitea Mate Bio 0.33l,"0,33l","1,39","1,69",https://www.goflink.com//de-DE/shop/product/charitea-mate-bio-330ml-11011186/
+Charitea Red Bio 0.33l,"0,33l","1,39","1,69",https://www.goflink.com//de-DE/shop/product/charitea-red-bio-330ml-11011187/
 Club Mate 0.5l,"0,5l","1,09",0,https://www.goflink.com//de-DE/shop/product/club-mate-0-5l-11011293/
 Dirtea Blueberry Eistee Dose 0.5l,"0,5l","1,39",0,https://www.goflink.com//de-DE/shop/product/dirtea-busty-blueberry-eistee-05l-11013847/
 Dirtea Candy Eistee Dose 0.5l,"0,5l","0,42","1,39",https://www.goflink.com//de-DE/shop/product/dirtea-candy-shop-eistee-05l-11013849/
@@ -199,6 +199,7 @@ Vilsa Brunnen Classic 1l,1l,"0,89",0,https://www.goflink.com//de-DE/shop/product
 Vilsa Brunnen Medium 1l,1l,"0,89",0,https://www.goflink.com//de-DE/shop/product/vilsa-brunnen-medium-1-0l-11014542/
 Vilsa Brunnen Naturelle 1l,1l,"0,89",0,https://www.goflink.com//de-DE/shop/product/vilsa-brunnen-naturelle-1-0l-11014544/
 Vilsa Plus Lemon 1l,1l,"0,89",0,https://www.goflink.com//de-DE/shop/product/vilsa-plus-lemon-1l-11017089/
+Vio Still 1.5l,"1,5l","0,99",0,https://www.goflink.com//de-DE/shop/product/vio-still-1-5l-11018071/
 Viva con Agua Laut 1l,1l,"0,99",0,https://www.goflink.com//de-DE/shop/product/viva-con-agua-laut-1l-11014031/
 Viva con Agua Leise 1l,1l,"0,99",0,https://www.goflink.com//de-DE/shop/product/viva-con-agua-leise-1l-11014032/
 Volvic Mediumperlig 1.5l,"1,5l","0,99",0,https://www.goflink.com//de-DE/shop/product/volvic-mediumperlig-1-5l-11017951/
@@ -243,19 +244,13 @@ Schweppes Tonic Zero 1.25l,"1,25l","1,89",0,https://www.goflink.com//de-DE/shop/
 Schweppes White Peach 1.25l,"1,25l","1,89",0,https://www.goflink.com//de-DE/shop/product/schweppes-white-peach-1-25l-11017758/
 Thomas Henry Tonic Water 0.2l,"0,2l","0,30","0,99",https://www.goflink.com//de-DE/shop/product/thomas-henry-tonic-water-0-2l-11010357/
 Thomas Henry Tonic Water 1l,1l,"2,49",0,https://www.goflink.com//de-DE/shop/product/thomas-henry-tonic-water-1l-11014754/
-Innocent Multi Mix Orange,Orange,"0,90","2,99",https://www.goflink.com//de-DE/shop/product/innocent-multi-mix-orange-11015371/
-Innocent Orangensaft mit Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-mit-fruchtfleisch-0-9l-11011177/
-Innocent Orangensaft ohne Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-ohne-fruchtfleisch-0-9l-11011178/
 Dean & David Cold Pressed Juice Berry Love 330ml,330ml,"2,99",0,https://www.goflink.com//de-DE/shop/product/deananddavid-cold-pressed-juice-berry-love-330ml-11012756/
 Dean & David Cold Pressed Juice Green Guru 330ml,330ml,"2,99",0,https://www.goflink.com//de-DE/shop/product/deananddavid-cold-pressed-juice-green-guru-330ml-11012755/
 Dean & David Ingwershot Kurkuma 80ml,80ml,"2,49",0,https://www.goflink.com//de-DE/shop/product/deananddavid-ingwershot-kurkuma-80ml-11012754/
-I'M Kaltgepresster Shot Granatapfel-Acerola-Guarana 60ml,60ml,"1,89",0,https://www.goflink.com//de-DE/shop/product/fruity-line-granatapfel-acerola-guarana-shot-60ml-11017270/
-I'M Kaltgepresster Shot Ingwer-Apfel-Zitrone 60ml,60ml,"1,89",0,https://www.goflink.com//de-DE/shop/product/fruity-line-ingwer-apfel-zitrone-shot-60ml-11017266/
-I'M kaltgepresster Saft Mandarine-Orange 500ml,500ml,"3,89",0,https://www.goflink.com//de-DE/shop/product/fruity-line-mandarinen-orangensaft-500ml-11017269/
-I'M kaltgepresster Saft Orange-Erdbeere 500ml,500ml,"3,89",0,https://www.goflink.com//de-DE/shop/product/fruity-line-orange-erdbeersaft-500ml-11017265/
-I'M kaltgepresster Smoothie Erdbeere-Banane 250ml,250ml,"1,99",0,https://www.goflink.com//de-DE/shop/product/fruity-line-smoothie-apfel-erdbeere-250ml-11017267/
-I'M kaltgepresster Smoothie Mango-Maracuja 250ml,250ml,"1,99",0,https://www.goflink.com//de-DE/shop/product/fruity-line-smoothie-mango-maracuja-250ml-11017268/
 Innocent Kokosnusswasser 500ml,500ml,"2,59",0,https://www.goflink.com//de-DE/shop/product/innocent-kokosnusswasser-500ml-11013130/
+Innocent Multi Mix Orange,Orange,"0,90","2,99",https://www.goflink.com//de-DE/shop/product/innocent-multi-mix-orange-11015371/
+Innocent Orangensaft mit Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-mit-fruchtfleisch-0-9l-11011177/
+Innocent Orangensaft ohne Fruchtfleisch 900ml,900ml,"2,79",0,https://www.goflink.com//de-DE/shop/product/innocent-organgensaft-ohne-fruchtfleisch-0-9l-11011178/
 Innocent Smoothie Berry Good 250ml,250ml,"1,89",0,https://www.goflink.com//de-DE/shop/product/innocent-smoothie-berry-good-250ml-11011192/
 Innocent Smoothie Kiwi Wonder 250ml,250ml,"1,89",0,https://www.goflink.com//de-DE/shop/product/innocent-smoothie-kiwi-wonder-250ml-11011194/
 Innocent Smoothie Magnificent Mango 250ml,250ml,"1,89",0,https://www.goflink.com//de-DE/shop/product/innocent-smoothie-magnificent-mango-250ml-11011191/
@@ -263,6 +258,6 @@ Kraftling Ingwershot Limette-Minze Bio 60ml,60ml,"2,59",0,https://www.goflink.co
 Kraftling Ingwershot Orange-Curcuma 60ml,60ml,"2,59",0,https://www.goflink.com//de-DE/shop/product/kraftling-ingwershot-orange-cur-60ml-11014216/
 Kraftling Vitamin Juice Immun 250ml,250ml,"2,99",0,https://www.goflink.com//de-DE/shop/product/kraftling-vitamin-juice-c-apfel-immunsystem-0-25l-11014462/
 Kraftling Vitamin Juice Mango 250ml,250ml,"2,99",0,https://www.goflink.com//de-DE/shop/product/kraftling-vitamin-juice-d-mango-immunsystem-0-25l-11014463/
-True Fruits Smoothie Pink 250ml,250ml,"1,92","2,49",https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-pink-250ml-11014251/
-True Fruits Smoothie Purple 250ml,250ml,"1,92","2,49",https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-purple-250ml-11014252/
-True Fruits Smoothie Yellow 250ml,250ml,"1,92","2,49",https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-yellow-250ml-11014250/
+True Fruits Smoothie Pink 250ml,250ml,"2,49",0,https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-pink-250ml-11014251/
+True Fruits Smoothie Purple 250ml,250ml,"2,49",0,https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-purple-250ml-11014252/
+True Fruits Smoothie Yellow 250ml,250ml,"2,49",0,https://www.goflink.com//de-DE/shop/product/true-fruits-smoothie-yellow-250ml-11014250/

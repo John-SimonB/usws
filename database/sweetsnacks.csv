@@ -1,10 +1,7 @@
 productname,size,newprice,oldprice,link
-Tony's Chocolonely Dunkle Vollmilchschokolade Brezel & Toffee 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-dunkle-vollmilchschokolade-brezel-toffee-180g-11012070/
-Tony's Chocolonely Vollmilch 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-vollmilch-180g-11011147/
-Tony's Chocolonely Vollmilch Karamell & Meersalz 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-vollmilch-karamell-salz-180g-11011148/
-Tony's Chocolonely Dunkle Vollmilchschokolade Brezel & Toffee 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-dunkle-vollmilchschokolade-brezel-toffee-180g-11012070/
-Tony's Chocolonely Vollmilch 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-vollmilch-180g-11011147/
-Tony's Chocolonely Vollmilch Karamell & Meersalz 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-vollmilch-karamell-salz-180g-11011148/
+Ferrero Rocher Ice Cream Classic 200g (4x50g),4x50g,"2,71","3,49",https://www.goflink.com//de-DE/shop/product/ferrero-rocher-ice-cream-classic-200g-4x50g-11016333/
+Kinder Bueno Eis White 248ml (4x62ml),4x62ml,"3,49",0,https://www.goflink.com//de-DE/shop/product/kinder-bueno-eis-white-248ml-4x62ml-11016942/
+Raffaello Ice Cream 188g (4x47g),4x47g,"2,71","3,49",https://www.goflink.com//de-DE/shop/product/raffaello-ice-cream-188g-4x47g-11016334/
 Chocolate and Love Milk Hazelnut 80g,80g,"1,11","3,69",https://www.goflink.com//de-DE/shop/product/chocolate-and-love-milk-hazelnut-80g-11015657/
 Chocolate and Love Mint 80g,80g,"1,11","3,69",https://www.goflink.com//de-DE/shop/product/chocolate-and-love-mint-80g-11015655/
 Chocolate and Love Sea Salt & Caramel 80g,80g,"1,11","3,69",https://www.goflink.com//de-DE/shop/product/chocolate-and-love-sea-salt-and-caramel-80g-11015656/
@@ -70,6 +67,9 @@ Ritter Sport Sesam Vegan 100g,100g,"1,99",0,https://www.goflink.com//de-DE/shop/
 Ritter Sport Trauben Nuss 100g,100g,"1,29",0,https://www.goflink.com//de-DE/shop/product/ritter-sport-trauben-nuss-100g-11010960/
 Ritter Sport Voll-Nuss 100g,100g,"1,49",0,https://www.goflink.com//de-DE/shop/product/ritter-sport-voll-nuss-100g-11011156/
 Ritter Sport Vollmilch Goldschatz 250g,250g,"0,84","2,79",https://www.goflink.com//de-DE/shop/product/ritter-sport-vollmilch-goldschatz-250g-11015327/
+Tony's Chocolonely Dunkle Vollmilchschokolade Brezel & Toffee 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-dunkle-vollmilchschokolade-brezel-toffee-180g-11012070/
+Tony's Chocolonely Vollmilch 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-vollmilch-180g-11011147/
+Tony's Chocolonely Vollmilch Karamell & Meersalz 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-vollmilch-karamell-salz-180g-11011148/
 Tony's Chocolonely Zartbitter Mandel & Meersalz 180g,180g,"2,99",0,https://www.goflink.com//de-DE/shop/product/tonys-chocolonely-zartbitter-mandel-salz-180g-11011149/
 Veganz Bio Schokolade Roasted Hazelnut vegan 90g,90g,"2,79",0,https://www.goflink.com//de-DE/shop/product/veganz-bio-schokolade-roasted-hazelnut-vegan-90g-11017355/
 Veganz Bio Schokolade White Roasted Almond vegan 80g,80g,"2,79",0,https://www.goflink.com//de-DE/shop/product/veganz-bio-schokolade-white-roasted-almond-vegan-80g-11017360/
@@ -115,7 +115,7 @@ kinder Bueno White 117g (6x19.5g),"6x19,5g","2,29",0,https://www.goflink.com//de
 kinder Cards 128g (5x25.6g),"5x25,6g","2,59",0,https://www.goflink.com//de-DE/shop/product/ferrero-kinder-cards-2x5er-pack-11010970/
 kinder Country 211g (9x23.4g),"9x23,4g","2,39",0,https://www.goflink.com//de-DE/shop/product/kinder-country-9er-211g-11012388/
 kinder Happy Hippo Cacao 104g (5x20.7g),"5x20,7g","1,99",0,https://www.goflink.com//de-DE/shop/product/kinder-happy-hippo-cacao-5er-pack-11015347/
-kinder Riegel 210g (10x21g),10x21g,"2,59",0,https://www.goflink.com//de-DE/shop/product/ferrero-kinderschoko-riegel-10er-pack-11010968/
+kinder Riegel 210g (10x21g),10x21g,"2,49",0,https://www.goflink.com//de-DE/shop/product/ferrero-kinderschoko-riegel-10er-pack-11010968/
 kinder Riegel Dark & Mild 210g (10x21g),10x21g,"2,49",0,https://www.goflink.com//de-DE/shop/product/kinder-riegel-dark-and-mild-10er-11016671/
 lycka Bio Bio Schokoriegel Erdnuss Salted Caramel 40g,40g,"1,39",0,https://www.goflink.com//de-DE/shop/product/lycka-bio-bio-schokoriegel-erdnuss-salted-caramel-40g-11017691/
 lycka Bio Schokoriegel Brownie 40g,40g,"1,39",0,https://www.goflink.com//de-DE/shop/product/lycka-bio-schokoriegel-brownie-40g-11017693/
@@ -155,8 +155,8 @@ hitschies Fruchtgummi Krakenarme sauer vegan 125g,125g,"1,19",0,https://www.gofl
 hitschies Fruchtgummi Spinnenbeine sauer vegan 125g,125g,"1,19",0,https://www.goflink.com//de-DE/shop/product/hitschler-fruchtgummi-spinnenbeine-sauer-vegan-125g-11014636/
 hitschies Fruchtgummi-Schnüre 4 Farben 125g,125g,"1,19",0,https://www.goflink.com//de-DE/shop/product/hitschler-fruchtgummi-schnure-4-farben-125g-11014635/
 hitschies Fruchtgummi-Schnüre mit Erdbeer-Geschmack 125g,125g,"1,19",0,https://www.goflink.com//de-DE/shop/product/hitschies-fruchtgummi-schnure-mit-erdbeer-geschmack-125g-11017578/
-nimm2 Lachgummi Apfellinge 225g,225g,"0,99",0,https://www.goflink.com//de-DE/shop/product/nimm2-lachgummi-apfellinge-225g-11017702/
-nimm2 Lachgummi Milchgeister 225g,225g,"0,99",0,https://www.goflink.com//de-DE/shop/product/nimm2-lachgummi-milchgeister-225g-11017699/
+nimm2 Lachgummi Apfellinge 225g,225g,"1,39",0,https://www.goflink.com//de-DE/shop/product/nimm2-lachgummi-apfellinge-225g-11017702/
+nimm2 Lachgummi Milchgeister 225g,225g,"1,39",0,https://www.goflink.com//de-DE/shop/product/nimm2-lachgummi-milchgeister-225g-11017699/
 BITE BOX Coffee To Go 65g,65g,"2,29",0,https://www.goflink.com//de-DE/shop/product/bite-box-coffee-to-go-65g-11017155/
 BITE BOX Karamello Mandello 65g,65g,"1,83","2,29",https://www.goflink.com//de-DE/shop/product/bite-box-karamello-mandello-65g-11017158/
 BITE BOX Tiramisaurus 65g,65g,"1,95","2,29",https://www.goflink.com//de-DE/shop/product/bite-box-tiramisaurus-65g-11017156/
@@ -164,7 +164,7 @@ HANS Bio-Power-Bites Kakao 50g,50g,"1,81","2,59",https://www.goflink.com//de-DE/
 Maltesers Schokokugeln 212g,212g,"3,99",0,https://www.goflink.com//de-DE/shop/product/maltesers-schokokugeln-212g-11013109/
 Nestlé Choco Crossies Original 150g (2x75g),2x75g,"1,99",0,https://www.goflink.com//de-DE/shop/product/nestle-choco-crossies-original-2x75g-11015320/
 Nestlé Smarties Mini Schachteln 187g,187g,"2,99",0,https://www.goflink.com//de-DE/shop/product/nestle-smarties-mini-schachteln-187g-11015321/
-Nestlé Smarties Riesenrolle 130g,130g,"1,49",0,https://www.goflink.com//de-DE/shop/product/nestle-smarties-riesenrolle-130g-11018017/
+Nestlé Smarties Riesenrolle 130g,130g,"1,69",0,https://www.goflink.com//de-DE/shop/product/nestle-smarties-riesenrolle-130g-11018017/
 REWE Beste Wahl Milk & Choc Schokoladenbonbons 200g,200g,"1,79",0,https://www.goflink.com//de-DE/shop/product/rewe-beste-wahl-milk-and-choc-schokoladenbonbons-200g-11017311/
 Reese's peanut Butter Cups 39.5g,"39,5g","0,69","0,99",https://www.goflink.com//de-DE/shop/product/reeses-peanut-butter-cups-39-5g-11016133/
 Toffifee 125g,125g,"1,49",0,https://www.goflink.com//de-DE/shop/product/toffifee-15er-packung-125g-11010932/
@@ -191,7 +191,7 @@ Leibniz Minis Black'n White 125g,125g,"1,59",0,https://www.goflink.com//de-DE/sh
 Leibniz Pick up! Choco & Milk 5x28g,5x28g,"1,99",0,https://www.goflink.com//de-DE/shop/product/leibniz-pick-up-choco-and-milk-5x28g-11015309/
 Leibniz Pick up! Choco 5x28g,5x28g,"1,99",0,https://www.goflink.com//de-DE/shop/product/leibniz-pick-up-choco-5x28g-11015310/
 Lotus Biscoff 250g,250g,"1,59",0,https://www.goflink.com//de-DE/shop/product/lotus-biscoff-250g-11015311/
-Manner Neapolitaner 2x75g,2x75g,"1,69",0,https://www.goflink.com//de-DE/shop/product/manner-neapolitaner-2x75g-11018003/
+Manner Neapolitaner 2x75g,2x75g,"1,79",0,https://www.goflink.com//de-DE/shop/product/manner-neapolitaner-2x75g-11018003/
 Manner Neapolitaner Schnitten 400g,400g,"0,90","2,99",https://www.goflink.com//de-DE/shop/product/manner-neapolitaner-schnitten-400g-11010906/
 Manner Snack Minis Milch Schoko Schnitten 300g,300g,"2,99",0,https://www.goflink.com//de-DE/shop/product/manner-snack-minis-milch-schoko-schnitten-300g-11015313/
 Mikado Vollmilchschokolade 75g,75g,"1,59",0,https://www.goflink.com//de-DE/shop/product/mikado-vollmilchschokolade-75g-11011777/
@@ -209,7 +209,7 @@ REWE Beste Wahl Soft Muffin Cookies 210g,210g,"1,39",0,https://www.goflink.com//
 5 GUM Wassermelone 35 Dragees,Dragees,"0,78","2,59",https://www.goflink.com//de-DE/shop/product/5-gum-wassermelone-35-dragees-11015264/
 5 Gum Spearmint 8 Stk.,Stk.,"0,30","0,99",https://www.goflink.com//de-DE/shop/product/5-gum-spearmint-8-stk-11012005/
 Ahoj Brause Kaubonon 150G,150G,"0,99",0,https://www.goflink.com//de-DE/shop/product/ahoj-brause-kaubonon-150g-11012644/
-Center Shock Fruchtig Sauerer Mix 84g,84g,"1,79",0,https://www.goflink.com//de-DE/shop/product/center-shock-fruchtig-sauerer-mix-84g-11018006/
+Center Shock Fruchtig Sauerer Mix 84g,84g,"1,89",0,https://www.goflink.com//de-DE/shop/product/center-shock-fruchtig-sauerer-mix-84g-11018006/
 Chupa Chups Mini 120g. 20 Stück,Stück,"1,59",0,https://www.goflink.com//de-DE/shop/product/chupa-chups-mini-120g-20-stuck-11017319/
 Chupa Chups Party Mix 400g,400g,"3,49",0,https://www.goflink.com//de-DE/shop/product/chupa-chups-party-mix-400g-11017509/
 Extra Professional Spearmint Kaugummi 88.5g (1x50 Dragees),Dragees,"2,59",0,https://www.goflink.com//de-DE/shop/product/extra-professional-spearmint-kaugummi-50-dragees-11015265/
@@ -280,8 +280,6 @@ Pottkorn Die Endstufe 80g,80g,"4,19","5,99",https://www.goflink.com//de-DE/shop/
 Pottkorn Hüftgold 80g,80g,"4,19","5,99",https://www.goflink.com//de-DE/shop/product/pottkorn-huftgold-80g-11017059/
 Pottkorn Rosa Innenfutter 80g,80g,"4,19","5,99",https://www.goflink.com//de-DE/shop/product/pottkorn-rosa-innenfutter-80g-11017061/
 Pottkorn Schmatzi für Schatzi 80g,80g,"4,19","5,99",https://www.goflink.com//de-DE/shop/product/pottkorn-schmatzi-fur-schatzi-80g-11017060/
-1 Stk. - Heide-Bäckerei Meyer Mohnschnecke,Mohnschnecke,"1,89",0,https://www.goflink.com//de-DE/shop/product/1-stk-heide-backerei-meyer-mohnschnecke-11018038/
-1 Stk. - Heide-Bäckerei Meyer Schweineohr mit Guß,Guß,"1,89",0,https://www.goflink.com//de-DE/shop/product/1-stk-heide-backerei-meyer-schweineohr-mit-guss-11018039/
 Bahlsen Comtess Choco-Chips 350g,350g,"2,39",0,https://www.goflink.com//de-DE/shop/product/bahlsen-comtess-choco-chips-350g-11015726/
 Bahlsen Comtess Marmor 350g,350g,"2,39",0,https://www.goflink.com//de-DE/shop/product/bahlsen-comtess-marmor-350g-11015727/
 Bahlsen Comtess Zitrone 350g,350g,"2,39",0,https://www.goflink.com//de-DE/shop/product/bahlsen-comtess-zitrone-350g-11015725/

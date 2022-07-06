@@ -1,8 +1,4 @@
 productname,size,newprice,oldprice,link
-Freixenet Rosé Mederano Rosado halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rose-mederano-rosado-halbtrocken-0-75l-11017310/
-Freixenet Rotwein Mederano Tinto halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rotwein-mederano-tinto-halbtrocken-0-75l-11017309/
-Freixenet Weißwein Mederano Blanco halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-weisswein-mederano-blanco-halbtrocken-0-75l-11017308/
-Freixenet Weißwein Mederano Blanco halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-weisswein-mederano-blanco-halbtrocken-0-75l-11017308/
 Miguel Torres Natureo Muscat Alkoholfrei 0.75l,"0,75l","8,49",0,https://www.goflink.com//de-DE/shop/product/natureo-blanco-torres-alkoholfrei-0-75l-11015568/
 Alde Gott Grauburgunder Kabinett trocken 0.75l,"0,75l","8,49",0,https://www.goflink.com//de-DE/shop/product/alde-gott-grauburgunder-kabinett-trocken-0-75l-11015817/
 Alde Gott Kuck Kuck Cuvée weiß 0.75l,"0,75l","7,49",0,https://www.goflink.com//de-DE/shop/product/alde-gott-kuck-kuck-cuvee-weiss-0-75l-11017661/
@@ -20,6 +16,7 @@ D United Cuvée Weiß Rheinhessen QbA. 0.75l,"0,75l","9,99",0,https://www.goflin
 Domaine Laroche Chablis Saint Martin 0.75l,"0,75l","12,49","24,99",https://www.goflink.com//de-DE/shop/product/domaine-laroche-chablis-saint-martin-0-75l-11012536/
 Doppio Passo Sicilia Grillo Wein 0.75l,"0,75l","7,99",0,https://www.goflink.com//de-DE/shop/product/doppio-passo-sicilia-grillo-wein-0-75l-11011288/
 Fleur de d'Artagnan Blanc Côtes de Gascogne IGP. 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/fleur-de-dartagnan-blanc-cotes-de-gascogne-igp-0-75l-11017818/
+Freixenet Weißwein Mederano Blanco halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-weisswein-mederano-blanco-halbtrocken-0-75l-11017308/
 Freixenet Weißwein Sauvignon Blanc 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-weisswein-sauvignon-blanc-trocken-750ml-11013875/
 Frey Grauburgunder GNEIS QbA trocken 0.75l,"0,75l","9,34","10,99",https://www.goflink.com//de-DE/shop/product/frey-grauburgunder-gneis-qba-trocken-0-75l-11016246/
 Frey Grauburgunder Gutswein QbA trocken 0.75l,"0,75l","8,49",0,https://www.goflink.com//de-DE/shop/product/frey-grauburgunder-gutswein-qba-trocken-0-75l-11016247/
@@ -33,7 +30,7 @@ III FREUNDE Weissburgunder QbA. Rheinhessen 0.75l,"0,75l","9,99",0,https://www.g
 Just Fucking Good Wine BIO Blanco Valencia DO. 0.75l,"0,75l","12,99",0,https://www.goflink.com//de-DE/shop/product/just-fucking-good-wine-bio-blanco-valencia-do-0-75l-11017808/
 La Baume Saint Paul Chardonnay Reserve Vin de Pays - D`Oc - 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/la-baume-saint-paul-chardonnay-reserve-vin-de-pays-d-oc-0-75l-11015375/
 La Baume Saint Paul Sauvignon Blanc,Blanc,"5,99",0,https://www.goflink.com//de-DE/shop/product/la-baume-saint-paul-sauvignon-blanc-reserve-vin-de-pays-d-oc-0-75l-11015378/
-Landlust Bio Rivaner-Weißburgunder 0.75l,"0,75l","4,99",0,https://www.goflink.com//de-DE/shop/product/landlust-bio-rivaner-weissburgunder-trocken-12-vol-750ml-11013352/
+Landlust Bio Rivaner-Weißburgunder 0.75l,"0,75l","3,99","4,99",https://www.goflink.com//de-DE/shop/product/landlust-bio-rivaner-weissburgunder-trocken-12-vol-750ml-11013352/
 Lauffener Lesestoff Weißwein Cuvée halbtrocken 0.75l,"0,75l","6,99",0,https://www.goflink.com//de-DE/shop/product/lauffener-lesestoff-weisswein-cuvee-halbtrocken-0-75l-11017145/
 Lauffener Weingärtner Weißwein Grauburgunder QbA trocken 0.75l,"0,75l","5,49",0,https://www.goflink.com//de-DE/shop/product/lauffener-weingartner-weisswein-grauburgunder-qba-trocken-0-75l-11017143/
 Le Jaja de Jau Chardonnay Languedoc Pays d´Oc IGP. 0.75l,"0,75l","6,99",0,https://www.goflink.com//de-DE/shop/product/le-jaja-de-jau-chardonnay-languedoc-pays-d-oc-igp-0-75l-11017822/
@@ -66,7 +63,6 @@ Weingut Diehl Riesling trocken QbA Ortswein 0.75l,"0,75l","7,99",0,https://www.g
 Weingut Loimer - Gluegglich Weiß - Naturwein - BIO - Österreich - Landwein 0.75l,"0,75l","10,99",0,https://www.goflink.com//de-DE/shop/product/weingut-loimer-gluegglich-weiss-naturwein-bio-osterreich-landwein-0-75l-11016721/
 "Winzerhof Stahl Nachschlag ""Bright side of Life"" 0.75l","0,75l","7,99",0,https://www.goflink.com//de-DE/shop/product/winzerhof-stahl-nachschlag-bright-side-of-life-franken-qba-0-75l-11016710/
 Yellow Tail Unoaked Chardonnay Australia 0.75l,"0,75l","2,99","5,99",https://www.goflink.com//de-DE/shop/product/yellow-tail-unoaked-chardonnay-australia-0-75l-11011736/
-Freixenet Rotwein Mederano Tinto halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rotwein-mederano-tinto-halbtrocken-0-75l-11017309/
 Natureo Tinto Alkoholfrei 0.75l,"0,75l","3,00","9,99",https://www.goflink.com//de-DE/shop/product/natureo-tinto-torres-alkoholfrei-0-75l-11015570/
 A6mani Lifili Primitivo Salento 0.75l,"0,75l","3,29","6,59",https://www.goflink.com//de-DE/shop/product/a6mani-lifili-primitivo-salento-0-75l-11012531/
 Alde Gott Rot & Süß Spätburgunder 0.75l,"0,75l","7,49",0,https://www.goflink.com//de-DE/shop/product/alde-gott-rot-and-suss-spatburgunder-0-75l-11015815/
@@ -76,7 +72,7 @@ Barón de Ley Rioja Reserva DOCa. 0.75l,"0,75l","13,49",0,https://www.goflink.co
 Bree Merlot 0.75l,"0,75l","4,99",0,https://www.goflink.com//de-DE/shop/product/bree-merlot-trocken-12-5-vol-750ml-11013355/
 Bree Pinot Noir Rose QbA feinherb 0.75l,"0,75l","4,99",0,https://www.goflink.com//de-DE/shop/product/bree-pinot-noir-rose-qba-feinherb-0-75l-11017250/
 Buitenverwachting Meifort WO. Coastal Region - 0.75l,"0,75l","6,99","9,99",https://www.goflink.com//de-DE/shop/product/buitenverwachting-meifort-wo-coastal-region-0-75l-11015493/
-Doppio Passo Puglia Primitivo Bio 0.75l,"0,75l","6,49","9,49",https://www.goflink.com//de-DE/shop/product/doppio-passo-puglia-primitivo-0-75l-11011292/
+Doppio Passo Puglia Primitivo Bio 0.75l,"0,75l","9,49",0,https://www.goflink.com//de-DE/shop/product/doppio-passo-puglia-primitivo-0-75l-11011292/
 Doppio Passo Salento Primitivo 0.75l,"0,75l","4,24","8,49",https://www.goflink.com//de-DE/shop/product/doppio-passo-salento-primitivo-13-0-75l-2020-11012082/
 El Meson Rioja Crianza DOCa. 0.75l,"0,75l","6,29","8,99",https://www.goflink.com//de-DE/shop/product/el-meson-crianza-0-75l-11015491/
 Entrecote - Merlot. Cabernet. Syrah VDF. 0.75l,"0,75l","4,99",0,https://www.goflink.com//de-DE/shop/product/entrecote-merlot-cabernet-syrah-cuvee-vin-de-france-0-75l-11015381/
@@ -86,6 +82,7 @@ Farnese Lunatico Nero d'Avola Sicilia IGT 0.75l,"0,75l","5,99",0,https://www.gof
 Farnese Lunatico Primitivo Puglia IGT 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/farnese-lunatico-primitivo-puglia-igt-0-75l-11017803/
 Fleur de d'Artagnan Rouge Côtes de Gascogne IGP. 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/fleur-de-dartagnan-rouge-cotes-de-gascogne-igp-0-75l-11017827/
 Freixenet Rotwein Cabernet Sauvignon 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rotwein-cabernet-sauvignon-halbtrocken-750ml-11013874/
+Freixenet Rotwein Mederano Tinto halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rotwein-mederano-tinto-halbtrocken-0-75l-11017309/
 Frescobaldi Nipozzano Chianti Rufina Riserva 0.75l,"0,75l","7,99",0,https://www.goflink.com//de-DE/shop/product/frescobaldi-nipozzano-chianti-rufina-riserva-0-75l-11011726/
 Frey Spätburgunder Rot  Gutswein QbA trocken 0.75l,"0,75l","7,99",0,https://www.goflink.com//de-DE/shop/product/frey-spatburgunder-rot-gutswein-qba-trocken-0-75l-11016248/
 Golden Kaan Cabernet Sauvignon Western Cape 0.75l,"0,75l","1,80","5,99",https://www.goflink.com//de-DE/shop/product/golden-kaan-cabernet-sauv-western-cape-0-75l-11011728/
@@ -95,7 +92,7 @@ Gérard Bertrand Heritage 118 Cabernet Syrah Cité de Carcassonne 0.75l,"0,75l",
 Just Fucking Good Wine BIO Tinto Valencia DO. 0.75l,"0,75l","12,99",0,https://www.goflink.com//de-DE/shop/product/just-fucking-good-wine-bio-tinto-valencia-do-0-75l-11017807/
 La Baume Saint Paul Cabernet Sauvignon Reserve Vin de Pays - D`Oc - 0.75l,"0,75l","1,80","5,99",https://www.goflink.com//de-DE/shop/product/la-baume-saint-paul-cabernet-sauvignon-reserve-vin-de-pays-d-oc-0-75l-11015377/
 La Baume Saint Paul Merlot Reserve Vin de Pays - D`Oc - 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/la-baume-saint-paul-merlot-reserve-vin-de-pays-d-oc-0-75l-11015376/
-Landlust Bio Dornfelder-Spätburgunder trocken 0.75l,"0,75l","4,99",0,https://www.goflink.com//de-DE/shop/product/landlust-bio-dornfelder-spatburgunder-trocken-12-vol-750ml-11013351/
+Landlust Bio Dornfelder-Spätburgunder trocken 0.75l,"0,75l","3,99","4,99",https://www.goflink.com//de-DE/shop/product/landlust-bio-dornfelder-spatburgunder-trocken-12-vol-750ml-11013351/
 Latentia Novantaceppi Primitivo Puglia IGP. halbtrocken 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/latentia-novantaceppi-primitivo-puglia-igp-halbtrocken-0-75l-11017305/
 Lauffener Katzenbeisser Rotwein Samtrot Spätlese lieblich 0.75l,"0,75l","4,99",0,https://www.goflink.com//de-DE/shop/product/lauffener-katzenbeisser-rotwein-samtrot-spatlese-lieblich-0-75l-11017144/
 Lauffener Lesestoff Rotwein Cuvée QbA trocken 0.75l,"0,75l","6,99",0,https://www.goflink.com//de-DE/shop/product/lauffener-lesestoff-rotwein-cuvee-qba-trocken-0-75l-11017146/
@@ -158,13 +155,13 @@ Valdo - BIO Prosecco DOC Biologico Brut -0.75l,"-0,75l","10,49",0,https://www.go
 Valdo - Marca Oro - Valdobbiadene Prosecco Superiore DOCG 0.75l,"0,75l","9,99",0,https://www.goflink.com//de-DE/shop/product/valdo-marca-oro-valdobbiadene-prosecco-superiore-docg-0-75l-11015977/
 Valdo - Rosé Brut Paradise Spumante Brut - 0.75l,"0,75l","9,99",0,https://www.goflink.com//de-DE/shop/product/valdo-rose-brut-paradise-spumante-brut-0-75l-11015978/
 Weingut Bassermann Jordan - Riesling Sekt - Brut - Pfalz - 0.75l,"0,75l","13,90",0,https://www.goflink.com//de-DE/shop/product/weingut-bassermann-jordan-riesling-sekt-brut-pfalz-0-75l-11016027/
-Freixenet Rosé Mederano Rosado halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rose-mederano-rosado-halbtrocken-0-75l-11017310/
 Miguel Torres Natureo Rosé Alkoholfrei 0.75l,"0,75l","8,49",0,https://www.goflink.com//de-DE/shop/product/natureo-rose-torres-alkoholfrei-0-75l-11015569/
 Alde Gott Kuck Kuck Cuvée rosé 0.75l,"0,75l","7,49",0,https://www.goflink.com//de-DE/shop/product/alde-gott-kuck-kuck-cuvee-rose-0-75l-11017660/
 CaMaiol Roseri Riviera del Garda Classico Valtenesi Chiaretto DOP 0.75l,"0,75l","12,99",0,https://www.goflink.com//de-DE/shop/product/camaiol-roseri-riviera-del-garda-classico-valtenesi-chiaretto-dop-0-75l-11015495/
 Chateau D'Esclans Whispering Angel 2020 0.75l,"0,75l","13,99","19,99",https://www.goflink.com//de-DE/shop/product/chateau-desclans-whispering-angel-2020-0-75l-11015239/
 Doppio Passo Primitivo Rosato Puglia IGT 0.75l,"0,75l","7,99",0,https://www.goflink.com//de-DE/shop/product/doppio-passo-primitivo-rosato-puglia-igt-12-750ml-11013258/
 Fleur de d'Artagnan Rosé Côtes de Gascogne IGP. 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/fleur-de-dartagnan-rose-cotes-de-gascogne-igp-0-75l-11017828/
+Freixenet Rosé Mederano Rosado halbtrocken 0.75l,"0,75l","3,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rose-mederano-rosado-halbtrocken-0-75l-11017310/
 Freixenet Roséwein Rosado 0.75l,"0,75l","5,99",0,https://www.goflink.com//de-DE/shop/product/freixenet-rosewein-rosado-trocken-750ml-11013876/
 Frey Spätburgunder Rosé Gutswein QbA trocken 0.75l,"0,75l","7,22","8,49",https://www.goflink.com//de-DE/shop/product/frey-spatburgunder-rose-gutswein-qba-trocken-0-75l-11016245/
 Grand Sud Rosé Merlot halbtrocken 1l,1l,"4,99",0,https://www.goflink.com//de-DE/shop/product/grand-sud-rose-merlot-halbtrocken-1l-11017393/
