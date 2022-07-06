@@ -6,7 +6,6 @@ from datetime import date
 
 neu = 'https://www.goflink.com/de-DE/shop/category/de-neu/'
 frischundfertig = 'https://www.goflink.com/de-DE/shop/category/frisch-fertig/'
-obstundgemuese = 'https://www.goflink.com/de-DE/shop/category/obst-gemuese/'
 fleischundfisch = 'https://www.goflink.com/de-DE/shop/category/fleisch-fisch/'
 grillen = 'https://www.goflink.com/de-DE/shop/category/grillen/'
 backwaren = 'https://www.goflink.com/de-DE/shop/category/backwaren/'
@@ -117,9 +116,9 @@ def output(productlist, file_name):
 
 today = date.today()
 
+os.system('python3 obst.py')
 output(parse(get_page(neu)), "neu")
 output(parse(get_page(frischundfertig)), "frischundfertig")
-output(parse(get_page(obstundgemuese)), "obstundgemuese")
 output(parse(get_page(fleischundfisch)), "fleischundfisch")
 output(parse(get_page(grillen)), "grillen")
 output(parse(get_page(backwaren)), "backwaren")
