@@ -41,3 +41,4 @@ array = {
 columns = ['productname', 'size', 'newprice', 'oldprice', 'link']
 df = pd.DataFrame(array)
 df.to_csv('allproducts.csv', index=False)
+print("saved allproducts")

@@ -32,7 +32,9 @@ def parse(soup):
         replaced_name = productname.replace(",", ".")
         
         #wahrscheinlich wird die mengenangabe ein problem machen (vielleicht nochmal replacen oder menge in extra spalte speichern?)
-        size = splited_name[len(splited_name) -3].replace("(", "").replace(")", "") +"S"
+        size = splited_name[len(splited_name) -3].replace("(", "").replace(")", "").replace(",", ".") +"S"
+        if(len(size) > 4):
+            size = splited_name[len(splited_name) -2].replace("(", "").replace(")", "").replace(",", ".")
         
         # logik = falls das produkt nicht im angebot ist, wird der alte preis auf 0 gesetzt und produkt erhält nur neuen preis
         if (len(splited_price1) < 20):
