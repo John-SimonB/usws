@@ -5,14 +5,14 @@ import numpy as np
 def preisRechnung():
     # Es ist sinnvoll eine Liste mit Dictionaries zu erstellen, da die vorherige Form doppelte keywords (z.B. 2 mal "name") beinhaltete. Deshalb die [] Klammern :)
     rezepte =[
-        {"name": "Nudeln", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...asdfsdfsadfasdfsdzgutfw37rugtzwr86543grtuz2238465rftuz3gur235f7u6zitwifgwdg sdfgweg324rtwref",
-                "nährwerte" : "100 kcal, 10 g fett.....  ra4s576fudtzgfa5sdr6tg7sa6tdfr7tuasgdif56srdtgfzgtas5rdtzasd5fr6sdtzgf5asrdutziufasdf342trwefsdfdfas",
-                "menge" : ["3.1kg"],
-                "zutaten" : ["Bio Kartoffeln vorw. festkochend 1.5kg (Deutschland)"],
+        {"name": "Potato salad", "beschreibung" : {
+                "zubereitung" : "Wash potatoes and bring to the boil in a saucepan covered with salted water. Cover and cook until tender, about 20 minutes. Cut onion in half, peel and finely dice. Wash chives, shake dry and cut into rolls. In a pot, bring vegetable broth to a boil and cook onions in it for about 3 minutes. Let broth cool slightly and mix oil, vinegar and mustard. Season with salt and pepper. Drain potato, peel and slice into thin slices while still lukewarm. In a bowl, pour lukewarm dressing over potato slices, mix and let sit for at least 20 minutes. Season Classic Potato Salad to taste and serve sprinkled with chives. Enjoy your meal! Tip: Prepare the potato salad and let it sit for at least an hour. Then it tastes even better.",
+                "nährwerte" : "calories: 273 kcal, carbohydrates: 45 g, protein: 7 g, fiber: 4 g, fats: 7 g",
+                "menge" : ["1kg", "1S", "15g", "1g", "1g", "5ml", "5ml", "5g", "300ml"],
+                "zutaten" : ["Bio Kartoffeln vorw. festkochend 1.5kg (Deutschland)", "Bio Zwiebel 1 Stk. (Deutschland)", "Schnittlauch 15g (Deutschland)", "Bad Reichenhaller Alpensalz 500g","REWE Beste Wahl Cayenne Pfeffer gemahlen 39g", "Thomy Reines Sonnenblumenöl 750ml", "Bio Weinessig Balsamico Balance 500ml", "Bautzner Senf Mittelscharf 250g", "Jürgen Langbein Gemüse-Fond 500ml"],
                 "link" : [],
                 "ernaehrungsform" : "vegan",
-                "bild" : "https://images.pexels.com/photos/2092906/pexels-photo-2092906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
+                "bild" : "https://images.pexels.com/photos/2349277/pexels-photo-2349277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
 
                 {"name": "Pasta alla Norma", "beschreibung" : {
                 "zubereitung" : "Heat some olive oil in a pot and sweat the garlic in it. Then add the peeled tomatoes. Simmer over low heat for 10-15 minutes. Heat a pot with plenty of salted water and cook the pasta al dente according to package instructions. Cut the eggplants into slices. Heat a pan with plenty of sunflower oil. Fry the eggplant slices on both sides. Put them on a baking tray covered with kitchen roll and let them drain. Season with salt and pepper. Grate the ricotta salata with a kitchen grater. Add the finished pasta to the pot with the tomato sauce. Add the fried eggplant and a few basil leaves and stir everything well. Divide the pasta among deep plates and sprinkle the ricotta salata on top. Buon appetito!",
@@ -20,45 +20,108 @@ def preisRechnung():
                 "menge" : ["500g", "3g", "200g", "5ml", "5g", "1g", "1g"],
                 "zutaten" : ["Barilla Penne Rigate 500g", "Iglo Knoblauch-Duo 60g", "Marziale Tortelloni Ricotta Spinaci 250g", "Thomy Reines Sonnenblumenöl 750ml", "Iglo Basilikum 50g", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
                 "link" : [],
-                "ernaehrungsform" : "asdfasdfasdfsdf",
+                "ernaehrungsform" : "vegetarisch",
                 "bild" : "https://images.pexels.com/photos/432072/pexels-photo-432072.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1%22%7D%7D"}},
                 
-                {"name": "bla", "beschreibung" : {
-                "zubereitung" : "erst asdasdasdasdfsvsdrt32t3rdwefsdfd wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett..dsfgsdfggsa67gtufzhis8z76ftgzvbashdfz6gt7izuvsbdhiljgldfghsdghgf...",
-                "menge" : ["100g", "200g", "200g", "100g"],
-                "zutaten" : ["Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g", "Barilla Fusilli 500g"],
+                {"name": "Greek salad", "beschreibung" : {
+                "zubereitung" : "Wash cucumber, remove ends, quarter lengthwise and cut into pieces. Wash and quarter tomatoes. Halve the shallot, peel and cut into rings. Dice the feta. Wash lemon, cut in half and squeeze juice. Wash parsley, shake dry, pluck leaves from stems and chop finely. In a bowl, mix olive oil with 2 tablespoons lemon juice, season with salt and pepper. Mix the cucumber, tomatoes, shallot, feta, parsley and black olives with the dressing and serve. Enjoy your meal! Tip: This goes well with herb bread sticks.",
+                "nährwerte" : "kalorien: 226 kcal, kohlenhydrate: 17 g, eiweiß: 10 g, ballaststoffe: 2 g, fette: 15 g",
+                "menge" : ["1S", "500g", "2S", "200g", "1S", "20g", "5ml", "1g", "1g", "40g"],
+                "zutaten" : ["Bio Gurke 1 Stk. (Deutschland)", "Cherrytomaten 250g (Deutschland)", "Zwiebel Gelb 1 Stk. (Deutschland)", "Patros Feta Leicht 150g", "Zitrone 1 Stk. (Italien)", "Petersilie glatt 15g (Deutschland)", "Bertolli Gentile Natives Olivenöl 500ml", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g", "Deli Genuss Oliven mit Basilikum 165g"],
                 "link" : [],
-                "ernaehrungsform" : "fleisch",
-                "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
+                "ernaehrungsform" : "vegetarisch",
+                "bild" : "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
                 
-                {"name": "fisch", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["40g"],
-                "zutaten" : ["Bella & Bona Bagel Salmon 240g"],
-                "link" : [],
-                "ernaehrungsform" : "fisch",
-                "bild" : "https://www.bofrost.de/medias/11513-DE-lachsfilet-naturbelassen-pic1.jpg-W1440xH1200R1.2?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDc0MDk1M3xpbWFnZS9qcGVnfHByb2R1Y3QtaW1hZ2VzL2hlMS9oMzIvOTA1ODEwODA0NzM5MC5qcGd8ZjNjOWMwNjI2NzJkZjUyN2ZiYjg2NmUyOTE5ODA1NjlhYjc4ODU0ZjkwMjI2NTg1ZjUwZThjY2M5ZDEwMTIyNg"}},
-
-                {"name": "steak", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["480g"],
-                "zutaten" : ["Bella & Bona Bagel Salmon 240g"],
-                "link" : [],
-                "ernaehrungsform" : "fisch",
-                "bild" : "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}},
-
-                {"name": "123123123", "beschreibung" : {
-                "zubereitung" : "erst das wasser kochen, dann...",
-                "nährwerte" : "100 kcal, 10 g fett.....",
-                "menge" : ["2kg"],
-                "zutaten" : ["Bio Broccoli 1 Stk. (Deutschland)"],
+                {"name": "Geschnetzeltes in cream with mushrooms and spaetzle", "beschreibung" : {
+                "zubereitung" : "Wash chicken fillet, pat dry, cut in half lengthwise, cut into strips about 1 cm thick and set aside to temper. Peel, halve and finely dice onions. Wash scallions, remove root ends and outer skin layer, if any, and cut white and green parts separately into thin rings. Clean mushrooms with paper towels, if necessary, and cut into quarters or eighths, depending on size. In a saucepan, bring about 4 l of salted water to a boil, covered. In a frying pan, heat 2 tablespoons of oil on high heat. Sear chicken fillet strips with salt on all sides for about 2 minutes and then set aside on a plate. Do not clean the pan. Add 3 tablespoons oil to the drippings in the pan and sauté mushrooms with salt on medium-high heat until golden brown all around, about 2-3 minutes. Add white parts of scallions and diced onion and sauté on medium heat for about 2-3 min. Pour in cream and 75 ml water and simmer for approx. 4-5 min. Then stir in the cutlets including the meat juice and the green part of the spring onions and just keep warm. Do not cook the creamed meat now, otherwise the fillet pieces would become too dry. In the meantime, add spaetzle to boiling salted water (it is important that the water is no longer bubbling) and cook for about 2-3 minutes. Stir occasionally. When the spaetzle come to the surface, they are done and can be drained into a colander. Season the Geschnetzelte with mushrooms with salt and pepper, arrange on plates with the Spätzle and serve. Enjoy your meal!",
+                "nährwerte" : "calories: 604 kcal, carbohydrates: 51 g, protein: 45 g, fiber: 3 g, fats: 22 g",
+                "menge" : ["600g", "2S", "500g", "250g", "480g", "5ml", "1g", "1g"],
+                "zutaten" : ["Wilhelm Brandenburg Hähnchen Innenbrustfilet 350g", "Bio Zwiebel 1 Stk. (Deutschland)", "Bio Champignons Weiß 250g (Deutschland)", "Hansano Schlagsahne 30% Fett. 250g", "Herr Kächele Lieblings-Spätzle 480g", "Bertolli Gentile Natives Olivenöl 500ml", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
                 "link" : [],
                 "ernaehrungsform" : "fleisch",
-                "bild" : "https://images.pexels.com/photos/8862752/pexels-photo-8862752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}}
+                "bild" : "https://tarasmulticulturaltable.com/wp-content/uploads/2014/04/Spatzle-mit-Pilzen-German-Spaetzle-with-Mushrooms-5-of-5-500x500.jpg"}},
+
+                {"name": "Cucumber salad", "beschreibung" : {
+                "zubereitung" : "Wash cucumbers, remove ends and cut into thin slices or shave. Put cucumber slices in a colander, mix with about 1 tsp of salt and let stand for about 30 min. In a bowl, mix yogurt, crème fraîche, vinegar, mustard and sugar and season with salt and pepper. Halve, peel and finely dice the onion and add to the dressing. Wash dill, shake dry, pluck tips and chop finely. Squeeze cucumber slices and add to dressing. Fold in dill and season to taste with salt and pepper. Serve cucumber salad immediately or refrigerate. Enjoy your meal!",
+                "nährwerte" : "calories: 66 kcal, carbohydrates: 11 g, protein: 3 g, fiber: 2 g, fats: 2 g",
+                "menge" : ["2S", "50g", "50g", "10ml", "10g", "1S", "15g", "1g", "1g"],
+                "zutaten" : ["Bio Gurke 1 Stk. (Deutschland)", "Andechser Natur Bio Joghurt 3.8% Fett. 100g", "Dr. Oetker Creme Fraiche 30% Fett. 150g", "Bio Apfelessig Balsamo 500ml", "Bautzner Senf Mittelscharf 250g", "Bio Zwiebel 1 Stk. (Deutschland)", "Dill 15g (Deutschland)", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
+                "link" : [],
+                "ernaehrungsform" : "vegetarisch",
+                "bild" : "https://www.afarmgirlsdabbles.com/wp-content/uploads/2021/08/creamy-cucumber-salad_afarmgirlsdabbles_01s.jpg"}},
+
+                {"name": "Pasta with salmon cream sauce", "beschreibung" : {
+                "zubereitung" : "Defrost salmon preferably overnight in the refrigerator, wash and pat dry. In a saucepan, bring salted water to a boil, covered. Add farfalle to boiling salted water and cook on medium heat until al dente, about 13-15 minutes. Halve, peel and finely dice onion. Cut lemon in half and squeeze juice. Heat oil in a frying pan over medium heat and sauté onion until translucent, about 3 minutes. Add 1 tablespoon lemon juice and cream, bring to a boil and season lightly with salt and pepper. Simmer sauce on medium-high heat for approx. 3-4 min. until creamy. Meanwhile, dice salmon about 2 cm in size. Wash dill, shake dry, remove coarse stems and chop finely. Add salmon to sauce, reduce heat and gently cook salmon with lid closed on low heat for approx. 3 min. Drain farfalle in a colander and allow to drain slightly. In the pot, mix farfalle with salmon sauce and dill and season with a little of the remaining lemon juice, salt and pepper. Arrange quick pasta with salmon cream sauce on plates and serve. Enjoy your meal!",
+                "nährwerte" : "calories: 757 kcal, carbohydrates: 99 g, protein: 38 g, fiber: 2 g, fats: 23 g",
+                "menge" : ["500g", "500g", "1S", "1S", "250g", "15g", "5ml", "1g", "1g"],
+                "zutaten" : ["REWE Bio Portionen vom Lachsfilet 250g", "Barilla Collezione Farfalle 500g", "Bio Zwiebel 1 Stk. (Deutschland)", "Zitrone 1 Stk. (Italien)", "Hansano Schlagsahne 30% Fett. 250g", "Dill 15g (Deutschland)", "Bertolli Gentile Natives Olivenöl 500ml", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
+                "link" : [],
+                "ernaehrungsform" : "fisch",
+                "bild" : "https://www.lavenderandmacarons.com/wp-content/uploads/2019/12/Easy-Creamy-Salmon-Pasta-Recipe-2.jpg"}},
+
+                {"name": "Rosemary potatoes", "beschreibung" : {
+                "zubereitung" : "Preheat oven to 220 °C (convection oven). Wash the potatoes and cut into wedges. Wash rosemary, shake dry and remove needles from stems. Thoroughly mix potatoes with olive oil, rosemary, salt and pepper on a tray with baking paper. Bake in oven for about 20-25 minutes until golden brown. Enjoy your meal!",
+                "nährwerte" : "calories: 218 kcal, carbohydrates: 40 g, protein: 5 g, fiber: 4 g, fats: 4 g",
+                "menge" : ["1kg", "24g", "10ml", "1g", "1g"],
+                "zutaten" : ["Bio Kartoffeln Festkochend 2kg (Deutschland)", "REWE Beste Wahl Rosmarin geschnitten 24g", "Bertolli Olivenöl Cucina 500ml", "Bad Reichenhaller Alpensalz 500g", "REWE Beste Wahl Cayenne Pfeffer gemahlen 39g"],
+                "link" : [],
+                "ernaehrungsform" : "vegan",
+                "bild" : "https://images.themodernproper.com/billowy-turkey/production/posts/2020/Roasted-Rosemary-Potatoes-10.jpg?w=1067&auto=compress%2Cformat&fit=crop&dm=1607484193&s=2237da4882efee52eec852fdfcc9be5a"}},
+
+                {"name": "Chocolate strawberries", "beschreibung" : {
+                "zubereitung" : "In a saucepan, bring about 500 ml of water to a boil. Wash strawberries and pat dry. Chop light and dark couverture separately. In a bowl, melt white couverture over a water bath. Place white couverture in a freezer bag. In another bowl, melt dark couverture over water bath as well. Then place in a bowl. Gradually hold strawberries by the green and dip in dark chocolate coating. Then place chocolate strawberries on a baking sheet lined with parchment paper. Decorate chocolate strawberries with white stripes as desired. Serve the chocolate strawberries. Enjoy!",
+                "nährwerte" : "calories: 449 kcal, carbohydrates: 42 g, protein: 4 g, fiber: 1 g, fats: 29 g",
+                "menge" : ["150g", "200g"],
+                "zutaten" : ["Dr. Oetker Kuvertüre Vollmilch 150g", "REWE Beste Wahl Erdbeeren 500g"],
+                "link" : [],
+                "ernaehrungsform" : "vegetarisch",
+                "bild" : "https://lilluna.com/wp-content/uploads/2021/01/chocolate-covered-strawberries3-resize-10.jpg"}},
+
+                {"name": "Broccoli cream soup", "beschreibung" : {
+                "zubereitung" : "Cook broccoli in vegetable broth until done, then remove from broth. Puree broccoli florets with crème fraîche. Gradually add vegetable broth. Enjoy!",
+                "nährwerte" : "",
+                "menge" : ["300g", "10g", "500ml"],
+                "zutaten" : ["REWE Bio Broccoli 300g", "Dr. Oetker Creme Fraiche 30% Fett. 150g", "Jürgen Langbein Gemüse-Fond 500ml"],
+                "link" : [],
+                "ernaehrungsform" : "vegetarisch",
+                "bild" : "https://assets.epicurious.com/photos/57b3390706de447f4e6d9316/master/pass/cream-of-broccoli-soup.jpg"}},
+
+                {"name": "vegan pancakes", "beschreibung" : {
+                "zubereitung" : "Put all the ingredients for the pancakes in the blender and puree until fine. Heat a little oil in a non-stick frying pan. Put 1-2 tablespoons of batter per pancake into the pan and bake the pancakes on both sides for about 2 minutes Garnish the finished pancakes with maple syrup and berries as desired or simply enjoy them plain. Enjoy!",
+                "nährwerte" : "",
+                "menge" : ["1S", "0.2l", "100g"],
+                "zutaten" : ["Banane 1 Stk. (Brasilien)", "Alpro Mandeldrink 1l", "Kölln Bio Haferflocken Zart 500g"],
+                "link" : [],
+                "ernaehrungsform" : "vegan",
+                "bild" : "http://carry-on-cooking.com/wp-content/uploads/2021/01/vegane-pancakes-apfelmus-tassenrezept-fluffige-pfannkuchen-ohne-ei-carryoncooking-foodfotografie-foodblog3.jpg"}},
             
+
+                {"name": "Lentils with spinach and pomegranate", "beschreibung" : {
+                "zubereitung" : "Prepare lentils according to package directions. Cut the pomegranate in half and break out the seeds with a wooden spoon (best done over a bowl of water, the seeds will fall to the bottom and can be removed more easily). Prepare the Iglo spinach leaf according to package directions. Add the cooked lentils and pomegranate seeds to the spinach, mix everything in - done! Enjoy!",
+                "nährwerte" : "",
+                "menge" : ["500g", "1S", "30g"],
+                "zutaten" : ["Iglo Rahm-Spinat 500g", "Granatapfel 1 Stk. (Türkei)", "Müller's Mühle Teller-Linsen 500g"],
+                "link" : [],
+                "ernaehrungsform" : "vegetarisch",
+                "bild" : "https://cdn.nomadfoodscdn.com/-/media/project/bluesteel/iglo-de/2018_iglo_bilder/04_rezepte/linsengranat_web_20180314.jpg"}},
+
+                {"name": "Spinach sandwich with fried egg", "beschreibung" : {
+                "zubereitung" : "Prepare the iglo creamed spinach in a pot as described on the package. Put a pan on the stove and let it get hot, toast the slices of crusty bread in the hot pan without oil. Wipe out the pan with a cloth and heat again, add the oil and then fry the eggs. Spread the iglo creamed spinach on the bread slices and arrange the fried eggs on top.",
+                "nährwerte" : "",
+                "menge" : ["100g", "100g", "2er"],
+                "zutaten" : ["Iglo Rahm-Spinat 500g", "1 Stk. - Dick's Krustenbrot 500g", "Rewe Eier Freilandhaltung 6er"],
+                "link" : [],
+                "ernaehrungsform" : "vegetarisch",
+                "bild" : "https://image.brigitte.de/10888982/t/GD/v4/w1440/r1/-/spinatbrot-mit-pochiertem-ei.jpg"}},
+
+                {"name": "Mac and Cheese", "beschreibung" : {
+                "zubereitung" : "Prepare the iglo creamed spinach in a pot as described on the package. Put a pan on the stove and let it get hot, toast the slices of crusty bread in the hot pan without oil. Wipe out the pan with a cloth and heat again, add the oil and then fry the eggs. Spread the iglo creamed spinach on the bread slices and arrange the fried eggs on top.",
+                "nährwerte" : "",
+                "menge" : ["100g", "100g", "2er"],
+                "zutaten" : ["Iglo Rahm-Spinat 500g", "1 Stk. - Dick's Krustenbrot 500g", "Rewe Eier Freilandhaltung 6er"],
+                "link" : [],
+                "ernaehrungsform" : "vegetarisch",
+                "bild" : "https://image.brigitte.de/10888982/t/GD/v4/w1440/r1/-/spinatbrot-mit-pochiertem-ei.jpg"}},
             ]
 
 

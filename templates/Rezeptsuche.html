@@ -5,7 +5,7 @@
     <header>
         <h2 class="logo">Recipe</h2>
         <div class="Home">
-            <a class="home" href="/" style="color: white; font-size: 20px;text-transform: uppercase;">Home</a>
+            <a href="/" style="color: white; font-size: 20px; text-transform: uppercase;">Home</a>
         </div>
     </header>
 <form action="#" method="post" style="margin-top: 120px; margin-left: 100px">
@@ -13,7 +13,7 @@
     <input type="text", name="nm" class="suche"/> 
     <input class="startsearch" type="submit", value="search", color="#7492B9" />
     <div class="text">
-        <p style="color: white;">Enter any recipe here.</p>
+        <p style="color: white;">Looking for a specific recipe? Enter it in the search bar.</p>
         <p style="color: white;">If you are not looking for a specific recipe, you can also click directly on search and the cheapest recipe will be displayed first.</p>
     </div>
 </form>
@@ -53,6 +53,7 @@
             </div>
         </div>
     {% endfor %}
+    <a href="https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" style="font-size: 12px;">background-image</a>
 {% elif writeBool and length == 0%}
     <p>do not found</p>
 {% endif %}
@@ -64,11 +65,8 @@
 </div>
 </body>
 <style>
-  .home:hover {
-    letter-spacing: 6px;
-  }
 body {
-    background-color: rgba(0, 0, 0, 0.878); */
+    background-color: rgba(0, 0, 0, 0.878);
 }
 .text p
 {
