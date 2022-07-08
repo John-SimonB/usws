@@ -5,7 +5,7 @@
     <header>
         <h2 class="logo">Recipe</h2>
         <div class="Home">
-            <a href="/" style="color: white; font-size: 20px; text-transform: uppercase;">Home</a>
+            <a class="home" href="/" style="color: white; font-size: 20px;text-transform: uppercase;">Home</a>
         </div>
     </header>
 <form action="#" method="post" style="margin-top: 120px; margin-left: 100px">
@@ -53,7 +53,6 @@
             </div>
         </div>
     {% endfor %}
-    <a href="https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="_blank" style="font-size: 12px;">background-image</a>
 {% elif writeBool and length == 0%}
     <p>do not found</p>
 {% endif %}
@@ -65,6 +64,9 @@
 </div>
 </body>
 <style>
+  .home:hover {
+    letter-spacing: 6px;
+  }
 body {
     background-color: rgba(0, 0, 0, 0.878); */
 }
