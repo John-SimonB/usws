@@ -112,16 +112,7 @@ def preisRechnung():
                 "zutaten" : ["Iglo Rahm-Spinat 500g", "1 Stk. - Dick's Krustenbrot 500g", "Rewe Eier Freilandhaltung 6er"],
                 "link" : [],
                 "ernaehrungsform" : "vegetarisch",
-                "bild" : "https://image.brigitte.de/10888982/t/GD/v4/w1440/r1/-/spinatbrot-mit-pochiertem-ei.jpg"}},
-
-                {"name": "Mac and Cheese", "beschreibung" : {
-                "zubereitung" : "Prepare the iglo creamed spinach in a pot as described on the package. Put a pan on the stove and let it get hot, toast the slices of crusty bread in the hot pan without oil. Wipe out the pan with a cloth and heat again, add the oil and then fry the eggs. Spread the iglo creamed spinach on the bread slices and arrange the fried eggs on top.",
-                "nährwerte" : "",
-                "menge" : ["100g", "100g", "2er"],
-                "zutaten" : ["Iglo Rahm-Spinat 500g", "1 Stk. - Dick's Krustenbrot 500g", "Rewe Eier Freilandhaltung 6er"],
-                "link" : [],
-                "ernaehrungsform" : "vegetarisch",
-                "bild" : "https://image.brigitte.de/10888982/t/GD/v4/w1440/r1/-/spinatbrot-mit-pochiertem-ei.jpg"}},
+                "bild" : "https://image.brigitte.de/10888982/t/GD/v4/w1440/r1/-/spinatbrot-mit-pochiertem-ei.jpg"}}
             ]
 
 
