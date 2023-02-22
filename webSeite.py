@@ -33,18 +33,19 @@ def searchPage():
         today = dt.datetime.now().date()       
         sales = dt.datetime.fromtimestamp(f.stat().st_mtime).date()
         allproducts = dt.datetime.fromtimestamp(f2.stat().st_mtime).date()
-        if (today == sales):
-            print("Datei ist aktuell")
-            print("Heutiges Datum: " + str(today))
-            print("Datei Datum: " + str(sales))
-            pass
-        else:
-            print("Datei nicht aktuell")
-            print("Heutiges Datum: " + str(today))
-            print("Datei Datum: " + str(sales))
-            if os.path.isfile('angebote.csv'):
-                os.remove("angebote.csv")
-                os.system('python3 angebotedatascrape.py')
+        # auskommentiert weil angebote jetzt nicht mehr unter dem link .../angebote erreichbar sind
+        # if (today == sales):
+        #     print("Datei ist aktuell")
+        #     print("Heutiges Datum: " + str(today))
+        #     print("Datei Datum: " + str(sales))
+        #     pass
+        # else:
+        #     print("Datei nicht aktuell")
+        #     print("Heutiges Datum: " + str(today))
+        #     print("Datei Datum: " + str(sales))
+        #     if os.path.isfile('angebote.csv'):
+        #         os.remove("angebote.csv")
+        #         os.system('python3 angebotedatascrape.py')
 
         #time.sleep(5)
         # ScrapeThread = threading.Thread(target = os.system('python Flink_Scrape.py'))
