@@ -23,7 +23,6 @@ et-xmlfile==1.1.0
 executing==0.8.3
 fake-useragent==0.1.11
 fastapi==0.78.0
-firebase==3.0.1
 Flask==2.1.2
 gcloud==0.17.0
 googleapis-common-protos==1.56.0
