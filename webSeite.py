@@ -21,7 +21,7 @@ def test():
     return render_template("home.html")
 
 
-
+#dsafs
 @app.route("/Rezeptsuche", methods=["POST", "GET"])
 def searchPage():
     if request.method == "POST":
